@@ -6569,7 +6569,7 @@ object-assign
                   },
                   a.a.createElement(
                     "a",
-                    { href: "https://top.topstaking.io/", target: "_blank" },
+                    { href: "https://top-ai-org-app.vercel.app/", target: "_blank" },
                     "Staking"
                   )
                 ),

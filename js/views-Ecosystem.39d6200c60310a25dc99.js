@@ -477,7 +477,7 @@
                 s.a.createElement(
                   "a",
                   {
-                    href: "https://top.topstaking.io/",
+                    href: "https://top-ai-org-app.vercel.app/",
                     className: "token-allocations-link",
                     target: "_blank",
                   },
