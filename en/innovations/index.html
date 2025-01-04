@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta data-react-helmet="true" charset="utf-8" />
+    <meta
+      data-react-helmet="true"
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <meta
+      data-react-helmet="true"
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta data-react-helmet="true" name="renderer" content="webkit" />
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="TOP AI Network is a public blockchain that employs sharding technology and a three-layer network to support an AI model service market. "
+    />
+    <meta
+      data-react-helmet="true"
+      name="keywords"
+      content="TOP,AI,network,web3,public,blockchain,agent,decentralized,ecosystem,model,computing,crypto,cryptocurrency,staking,sharding,Ethereum,BTC,Bitcoin,Dapp,decentralization,ecosystem,minning,node,developer,opensource,infrastructure,data."
+    />
+    <meta data-react-helmet="true" http-equiv="Expires" content="-1" />
+    <meta data-react-helmet="true" http-equiv="Pragma" content="no-cache" />
+    <meta
+      data-react-helmet="true"
+      http-equiv="Cache-control"
+      content="no-cache"
+    />
+    <meta data-react-helmet="true" http-equiv="Cache" content="no-cache" />
+    <title data-react-helmet="true">
+      TOP AI Network - Decentralized AI Model Sharding Network
+    </title>
+    <link
+      data-react-helmet="true"
+      rel="icon"
+      href="/static/favicon.ico"
+      type="image/x-icon"
+    />
+    <script
+      data-react-helmet="true"
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"
+    ></script>
+    <script
+      data-react-helmet="true"
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"
+    ></script>
+    <script
+      data-react-helmet="true"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"
+    ></script>
+    <script
+      data-react-helmet="true"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"
+    ></script>
+    <script
+      data-react-helmet="true"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/easing/EasePack.min.js"
+    ></script>
+    <script data-react-helmet="true">
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-122476824-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <script data-react-helmet="true" type="x-shader/x-vertex" id="vertexshader">
+      attribute float scale;
+              void main() {
+              vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+              gl_PointSize = scale * ( 180.0 / - mvPosition.z );
+              gl_Position = projectionMatrix * mvPosition;
+              }
+    </script>
+    <script
+      data-react-helmet="true"
+      type="x-shader/x-fragment"
+      id="fragmentshader"
+    >
+      uniform vec3 color;
+              void main() {
+                if ( length( gl_PointCoord - vec2( 0.5, 0.5 ) ) > 0.475 ) discard;
+                gl_FragColor = vec4( color, 1.0 );
+              }
+    </script>
+    <link
+      data-chunk="main"
+      rel="stylesheet"
+      href="/css/main.9585e155748bd9655037.css"
+    />
+    <link
+      data-chunk="views-Innovations"
+      rel="stylesheet"
+      href="/css/views-Innovations.40b2f404bee0c20705b8.css"
+    />
+    <link
+      data-chunk="main"
+      rel="preload"
+      as="script"
+      href="/js/vendors.e0c1084e192da768bc67.js"
+    />
+    <link
+      data-chunk="main"
+      rel="preload"
+      as="style"
+      href="/css/main.9585e155748bd9655037.css"
+    />
+    <link
+      data-chunk="main"
+      rel="preload"
+      as="script"
+      href="/js/main.429184c57864c182810f.js"
+    />
+    <link
+      data-chunk="views-Innovations"
+      rel="preload"
+      as="style"
+      href="/css/views-Innovations.40b2f404bee0c20705b8.css"
+    />
+    <link
+      data-chunk="views-Innovations"
+      rel="preload"
+      as="script"
+      href="/js/views-Innovations.d35526015155b6789ce7.js"
+    />
+  </head>
+  <body>
+    <script type="text/javascript">
+      window.__INITIAL_STATE__ = {
+        locale: {
+          lang: "en",
+          supportLan: {
+            zh: {
+              name: "中文",
+              message: {
+                nav: {
+                  mining: "TOP挖矿平台",
+                  tech: "技术",
+                  innovations: "技术创新",
+                  auditreport: "审计报告",
+                  whitepaper: "白皮书",
+                  developer: "开发者",
+                  doc: "文档及SDK",
+                  github: "GitHub",
+                  hackathon: "黑客松",
+                  ecosystem: "生态",
+                  explorer: "区块浏览器",
+                  wallet: "钱包",
+                  dapp: "DApps",
+                  partner: "合作伙伴",
+                  staking: "Staking",
+                  handbook: "Staking手册",
+                  staking_start: "开始Staking",
+                  about: "关于",
+                  team: "团队",
+                  news: "新闻",
+                  faq: "FAQ",
+                  faucet: "水龙头",
+                  swap: "Token映射",
+                },
+                footer: {
+                  contact: "联系我们",
+                  service: "服务条款",
+                  privacy: "隐私协议",
+                  placeholder: "请输入您的邮箱",
+                  submit: "订阅",
+                },
+                home: {
+                  hero: {
+                    desc: "基于第4代区块链技术的高性能原创公链平台，比以太坊2.0提前2年实现",
+                    play: "播放视频",
+                  },
+                  innovation: {
+                    title: "技术创新",
+                    li1: "全状态分片",
+                    li1_text1: "网络分片(Network Sharding)",
+                    li1_text2: "状态分片(State Sharding)",
+                    li1_text3: "计算分片(Compute Sharding)",
+                    li2: "极速交易",
+                    li2_text1: "100,000+ TPS",
+                    li2_text2: "支持水平扩容",
+                    li2_text3: "共识速度快",
+                    li3: "让业务轻松上链",
+                    li3_text1: "可插入式服务链",
+                    li3_text2: "应用层智能合约",
+                    li3_text3: "友好型经济模型",
+                    more: "了解更多",
+                  },
+                  act: {
+                    DRAFT: "草稿",
+                    TOSTART: "待开始",
+                    UNDERWAY: "进行中",
+                    OVER: "已结束",
+                  },
+                  service: {
+                    title: "设施与服务",
+                    text1: "去中心化通信",
+                    text2: "去中心化存储",
+                    text3: "去中心化ID",
+                    desc1:
+                      "TOP提供视频、网络电话、CDN、信息、直播等相关通信服务",
+                    desc2: "TOP通过加密哈希识别和分发存储在网络中的数据",
+                    desc3: "无需中心化机构即可验证我们的数字身份",
+                  },
+                  map: {
+                    title: "TOP 主网",
+                    desc: "为真实海量业务上链而打造的高性能公链平台",
+                    node: "节点分布在全球{0}个国家",
+                    online: "网络节点",
+                    learn: "了解更多",
+                  },
+                  roadmap: { title: "路线图" },
+                },
+                mining: {
+                  slogen: "TOP挖矿平台{tag}引领多元挖矿时代",
+                  income: "年化收益",
+                  mine: "HiWallet聚合挖矿",
+                  rights: "TOP通证{tag}生态权益",
+                  head: "头矿ROI",
+                  chain: "TOP公链挖矿",
+                  cheap: "整机优惠",
+                  discount: "85",
+                  discount1: "折",
+                  miner: "TOP IPFS矿机",
+                  miner1: "TopIPFS矿机",
+                  sec1: {
+                    title1: "全球首条",
+                    desc1: "全状态分片区块链网络{tag}支持layer-2业务链垂直拓展",
+                    title2: "门槛低",
+                    desc2: "少量TOP就能参与Staking{tag}对技术要求低",
+                    title3: "无风险高产出",
+                    desc3: "TOP一直在你钱包里不会流失{tag}头矿ROI 491.52%",
+                  },
+                  more: "了解更多",
+                  sec2: {
+                    title1: "全网挖矿效率No.1",
+                    desc1: "数十位算法专家{tag}持续优化挖矿效率",
+                    title2: "5A级硅谷机房",
+                    desc2: "99.99%级别SLA{tag}全年故障率不超过5.26分钟",
+                    title3: "低成本，高产出",
+                    desc3: "科学选配，超强矿机",
+                  },
+                  sec3: {
+                    title1: "去中心化挖矿",
+                    desc1:
+                      "采用智能合约的形式{tag}进行链上聚合DeFi挖矿{tag}杜绝人为作恶",
+                    title2: "精选策略捕获利润",
+                    desc2: "热门DeFi项目选品{tag}为不同用户提供投资进阶产品",
+                    title3: "用户激励",
+                    desc3: "邀请好友参与DeFi聚合挖矿{tag}双方额外捕获加息",
+                  },
+                },
+                developer: {
+                  faucet: {
+                    12001: "TOP地址有误",
+                    12002: "用户Id有误",
+                    12003: "用户idToken有误",
+                    12004: "用户规定时间内重复领取",
+                    12005: "用户未通过校验",
+                    12006: "hash有误",
+                    12007: "未找到对应交易",
+                    title: "TOP水龙头",
+                    desc: "快速，安全地领取TOP测试币",
+                    before: "授权后领取",
+                    after: "授权成功",
+                    placeholder: "输入账户地址获取TOP测试币",
+                    request: "申请",
+                    amount: "转账金额",
+                    hash: "交易hash",
+                    fail: "转账失败，请重新申请",
+                    success: "申请testnet TOP成功",
+                    copySuccess: "复制成功",
+                    copyFail: "复制失败",
+                  },
+                },
+                ecosystem: {
+                  top_text1: "DApp开发者",
+                  top_text2: "矿工和投票者",
+                  top_text3: "Service开发者",
+                  minning: {
+                    title: "TOP挖矿",
+                    desc: "做TOP节点，为节点投票，参与TOP链上生态管理。",
+                    learn: "了解更多",
+                    name1: "节点",
+                    text1: "提供算力或宽带，通过验证交易及生产区块赚取奖励",
+                    name2: "投票者",
+                    text2: "锁仓为节点投票，即可赚取奖励",
+                  },
+                  wallet: {
+                    title: "钱包",
+                    hiwallet: "HiWallet",
+                    hiwallet_desc:
+                      "专为小白设计——TOP生态指定钱包，简单操作易上手，安全管理多币种",
+                    hiwallet_desc_full:
+                      "专为小白设计——TOP生态指定钱包，简单操作易上手，安全管理多币种",
+                    hiwallet_download: "下载",
+                    cobo: "Cobo Wallet",
+                    cobo_desc: "生态合作钱包",
+                  },
+                  dapp: {
+                    title: "DApps",
+                    learn: "了解更多",
+                    app: "App",
+                    bitvpn: " ",
+                    bitvpn_desc: "TOP AI Network生态第一款去中心化App！",
+                    text1: "Live Streaming",
+                    text2: "Video",
+                    text3: "Gaming",
+                    text4: "IoT Data Sharing",
+                    text5: "Storage",
+                    text6: "VoIP",
+                    text7: "Asset Managemeng",
+                    text8: "CDN",
+                    text9: "Message",
+                    game: "游戏",
+                    game1: "War of Three Kingdoms",
+                    game1_desc: " ",
+                    game2: "The King's Business",
+                    game2_desc: " ",
+                    game3: "League of Crypto",
+                    game3_desc: " ",
+                    game4: "Raiders",
+                    game4_desc: " ",
+                  },
+                  partner: {
+                    title: "合作伙伴",
+                    exchange: "Exchanges",
+                    minning: "矿池",
+                    strategic: "战略合作伙伴",
+                  },
+                },
+                faq: {
+                  pagetitle: "FAQ",
+                  titles: ["I. 项目介绍", "II．技术细节", "III. 技术开发问题"],
+                  articles: [
+                    {
+                      title: "I. 项目介绍",
+                      questionAsk: [
+                        {
+                          question: "Q1：什么是TOP AI Network？",
+                          asks: [
+                            "TOP AI Network是由基于第4代区块链技术的原创公链、去中心化应用以及各种配套设施构成的区块链生态系统。",
+                            "其中，TOP链是全球首条全状态分片公链，也是真正为海量业务上链而打造的高性能公链平台。TOP链独特的主链、业务链、可信链下账本三层架构能够支持任何量级的业务上链。TOP链基于DAG数据结构，创新地应用了双层点阵、双层分片、并行PBFT等技术，单链处理能力超过30万TPS。TOP链极高的TPS（交易吞吐量）和安全性，再加上链上交易确认速度快，交易费用为零等特点，特别适合通信、游戏、社交、大数据、人工智能、IoT等海量高频业务上链。",
+                            "TOP AI Network的远景是建立一个专为DApp打造的公共区块链基础设施。TOP团队上百名顶级开发人员正在为这一目标不懈努力。截至目前，TOP团队已开发了去中心化钱包HiWallet，并正在开发包括区块链游戏等多款大型DApp。",
+                          ],
+                        },
+                        {
+                          question: "Q2：为什么团队要建立一个公链平台？",
+                          asks: [
+                            "虽然我们最初的愿景并不是建立一个公链平台，但在开发的过程中很快意识到我们必须这样做。",
+                            "因为曾在2017年TOP项目启动时，我们准备将4000万用户迁移至TOP AI Network，但这意味着TOP AI Network每秒需要处理超过十万笔交易之多。我们曾尝试寻找一个现有的公链平台作为TOP AI Network的账本。但事实上，现有的区块链平台并不能达到如此高的TPS。因此我们选择构建自己的账本—— 旨在打造一个可以处理任何规模真实业务的公链平台。",
+                          ],
+                        },
+                        {
+                          question: "Q3：TOP是否有白皮书？",
+                          asks: [
+                            "TOP白皮书已在官网发布，点击官网上的“白皮书”即可访问我们的白皮书。",
+                          ],
+                        },
+                        {
+                          question: "Q4：目前为止，TOP的投资机构都有哪些？",
+                          asks: [
+                            "我们获得了1100万美元的早期投资，都来自著名机构及投资者，其中包括分布式资本，丹华资本（DHVC），NGC，LD Capital等。",
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      title: "II．技术细节",
+                      questionAsk: [
+                        {
+                          question: "Q5. 建立TOP网络生态系统的计划是什么？",
+                          asks: [
+                            "目前，现有区块链平台的数量远远已超过了DApp开发人员的数量。我们可以将已有的APP以及庞大用户群体迁移至TOP AI Network。因此，未来这些用户将被引入TOP AI Network生态中。早期，我们基本不会依赖于第三方开发人员。因为我们有足够的用户和APP来快速建设我们的生态系统。我们甚至已经建立了两个内部游戏开发团队，他们不仅在开发目前在DApp市场上占主导地位的小游戏，也在打造更加专业的区块链游戏。一旦完成所有相关工作后，我们将会告知第三方开发人员。",
+                          ],
+                        },
+                        {
+                          question: "Q6. 如何将海量用户迁移到TOP链上？",
+                          asks: [
+                            "团队在开发通信APP（Dingtone，CoverMe和Proxy）之前就已经设计了分布式网络。这些应用共享的基础网络层将被TOP AI Network取代。这意味着Dingtone，CoverMe和Proxy将透明地移至TOP AI Network。实际上，用户甚至根本不会察觉到迁移的过程。",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q7：TOP有多少开发人员？为什么三层分布式账本比单层好？",
+                          asks: [
+                            "TOP现有100多名开发人员。单层账本有其局限性，一个主链无法处理所有事情。因此，TOP采用的是三层账本，并将业务结算和业务逻辑分开。此外，我们还实现了内置于第2层的状态通道功能。",
+                          ],
+                        },
+                        {
+                          question: "Q8：将采取何种措施来保护TOP链的安全性？",
+                          asks: [
+                            "TOP采用的是三层架构。在分片中验证交易后，将由高级网络对其进行审核。因此，即使有人控制了分片，也无法绕过高级网络的审核。",
+                          ],
+                        },
+                        {
+                          question: "Q9：TOP的创新分片技术是指什么？",
+                          asks: [
+                            "TOP 链是世界上首条由分片驱动的全状态分片公链，支持真实水平扩容。主网上线之初，单个分片可以达到500 TPS。就分片而言，TOP 链可通过三种类型的综合分片进行扩展：网络分片，状态分片和计算分片。",
+                            "共识网络分为三层：提供客户端访问的边缘网络，审核交易并同步状态的路由网络以及验证交易并发送给单个分片的共识网络。",
+                            "状态分片通过整个数据结构管理存储，计算分片在集群和分片之间对计算进行分区，以并行执行交易验证。",
+                            "得益于多层分片技术，TOP链能够实现水平扩容，最多可达到1024个分片。 此外，我们可以通过简单地增加分片的数量来线性增加可扩展性。",
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      title: "III. 技术开发问题",
+                      questionAsk: [
+                        {
+                          question:
+                            "Q10：如尝试自行开发Dapp，应该怎样利用TOP链？",
+                          asks: [
+                            "TOP链是世界上首条为通信，游戏，社交，大数据，AI和IoT等高频业务而打造的全状态分片公链。任何APP都可以通过我们的APIs和SDKs进入平台。如果想要自行开发DApp，TOP将是您的理想选择。使用TOP链，将不再需要构建自己的栈（stack），部署服务器和维护网络。使用相对较少的代码，就可以构建功能强大且可扩容的DApp。",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q11：如果开发者想使用TOP AI Network开发DApp，如何在TOP的平台上开发该DApp，可以为开发者提供什么好处？",
+                          asks: [
+                            "由开发者建立用户界面，TOP处理技术栈（stack）。一般而言，开发者可能需要一年时间来构建DApp，但如果使用TOP链则只需要几个星期，而且无需托管自己的网络，从而节省大量资金。",
+                          ],
+                        },
+                        {
+                          question: "Q12：TOP智能合约是什么？",
+                          asks: [
+                            "TOP提供两种类型的智能合约：平台智能合约和应用层面的智能合约。平台智能合约专为TOP生态系统中的代币经济和链上治理而设计。目前DApp开发仅支持Lua，并已在TOP主办的布拉格黑客松上得到了验证。未来我们将会支持更多种语言的智能合约。",
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                team: {
+                  title: "TOP Team",
+                  prev: "Forward",
+                  next: "Next",
+                  founder: {
+                    title: "TOP联合创始人",
+                    desc: "TOP的核心团队分别来自知名企业WebEx，Fortinet及Cloud.com，在通信，加密学，云计算和网络安全方面具有丰富的行业经验。",
+                    humans: [
+                      {
+                        name: "Steve Wei",
+                        position: "CEO",
+                        desc: "清华大学毕业<br/>4次连续成功创业经历<br/>WebEx创始员工，后被思科收购<br/>创办盛维，后被华为收购<br/>创办Dingtone，累积超1亿用户",
+                      },
+                      {
+                        name: "Noah Wang",
+                        position: "CMO",
+                        desc: "耶鲁大学MBA<br/>CFA、CPA<br/>在Starr, 工商银行及普华永道任管理职位<br/>CCTV特约评论员，硅谷华源协会理事<br/>国际门萨协会会员",
+                      },
+                      {
+                        name: "Taylor Wei",
+                        position: "CTO",
+                        desc: "密码学专家<br/>WebEx创始员工<br/>Dingtone联合创始人<br/>资深网络架构师",
+                      },
+                      {
+                        name: "Peter Wei",
+                        position: "VP",
+                        desc: "WebEx创始员工<br/>Fortinet架构师<br/>TrendMicro技术架构师<br/>拥有33项网络安全专利",
+                      },
+                      {
+                        name: "Kelven Yang",
+                        position: "首席架构师",
+                        desc: "WebEx首席架构师<br/>Cloud.com创始员工<br/>Dingtone联合创始人",
+                      },
+                    ],
+                  },
+                  advisor: {
+                    title: "TOP顾问",
+                    humans: [
+                      { name: "Eric Yuan", position: "Zoom CEO兼创始人" },
+                      { name: "Mark Greene", position: "FICO前CEO" },
+                      { name: "Roger Lim", position: "NGC合伙人" },
+                      { name: "Kevin Hsu", position: "BlockVC创始人" },
+                    ],
+                    join_title: "加入我们",
+                    join_desc: "如有兴趣加入我们团队，请发送您的简历至 ",
+                  },
+                  investor_title: "投资机构",
+                },
+                news: {
+                  event: { title: "TOP大事件", more: "更多详情" },
+                  video: { title: "精彩回顾" },
+                  article: { title: "TOP资讯" },
+                  media: {
+                    title: "聚焦TOP",
+                    kit: "媒体资料",
+                    desc: "如果您正在撰写有关TOP的文章，需要我们的媒体素材，请下载下方的媒体素材包。 其他相关问题，请联系 {0}",
+                    download: "Download",
+                  },
+                },
+                innovations: {
+                  title: "TOP链",
+                  desc: "全球首条全状态分片公链，特别适合通信、游戏、社交网络、大数据、人工智能、物联网等海量高频业务",
+                  whitepaper: "阅读白皮书",
+                  technical: "技术亮点",
+                  section1: {
+                    title: "关于我们",
+                    content: [
+                      {
+                        title: "高性能",
+                        desc: "创新地应用了双层点阵、双层分片、并行PBFT等技术，单链处理能力超过10万TPS",
+                      },
+                      { title: "无许可", desc: "完全无许可，不限制节点数量" },
+                      {
+                        title: "高度安全",
+                        desc: "共识机制综合了多种验证和审计的hpBFT、PoS*以及不可预测的随机性（PoS*是一种泛权益证明）",
+                      },
+                      {
+                        title: "对用户和开发者友好",
+                        desc: "一个对用户和开发者友好的经济模型，为开发者提供容易实现的，转钥式解决方案",
+                      },
+                    ],
+                  },
+                  section2: {
+                    title: "技术特性",
+                    desc: "TOP链独特的主链、业务链、可信链下账本三层架构能够支持任何量级的业务上链。",
+                    content: [
+                      {
+                        text: ["综合多层", "扩容技术"],
+                        desc: [
+                          "Layer 0: P2P覆盖网络",
+                          "Layer 1: 状态分片，计算分片，网络分片",
+                          "Layer 2: 状态通道，多条服务链",
+                        ],
+                      },
+                      {
+                        text: ["综合多层", "分片技术"],
+                        desc: [
+                          "双层：状态分片",
+                          "三层：计算分片",
+                          "三层：网络分片",
+                        ],
+                      },
+                      {
+                        text: ["双层点阵状态"],
+                        desc: ["单元点阵", "区块点阵"],
+                      },
+                      {
+                        text: ["完全并行的", "共识机制"],
+                        desc: [
+                          "多核CPU: 并行计算",
+                          "多角色节点：并行工作",
+                          "多组分片：并行共识(hpBFT)",
+                          "多个分片的链：并行交易",
+                        ],
+                      },
+                      {
+                        text: ["三层网络"],
+                        desc: ["边缘网络", "路由网络", "核心网络"],
+                      },
+                    ],
+                  },
+                },
+                activity: { back: "返回", actTime: "活动时间" },
+              },
+              api_language: "ZH",
+              date_language: "zh-cn",
+            },
+            en: {
+              name: "English",
+              message: {
+                nav: {
+                  mining: "TOP Mining Platform",
+                  tech: "Technology",
+                  innovations: "Innovations",
+                  auditreport: "Audit Report",
+                  whitepaper: "Whitepaper",
+                  developer: "Developer",
+                  doc: "Document & SDK",
+                  github: "GitHub",
+                  hackathon: "Hackathon",
+                  ecosystem: "Ecosystem",
+                  explorer: "Explorer",
+                  wallet: "Wallet",
+                  dapp: "DApps",
+                  partner: "Partners",
+                  staking: "Staking",
+                  handbook: "Handbook",
+                  staking_start: "Get Started",
+                  about: "About",
+                  team: "Team",
+                  news: "News",
+                  faq: "FAQ",
+                  faucet: "Faucet",
+                  swap: "TOP Swap",
+                },
+                footer: {
+                  contact: "Contact Us",
+                  service: "Terms of Service",
+                  privacy: "Privacy Policy",
+                  placeholder: "Please input your email",
+                  submit: "STAY TUNED",
+                },
+                home: {
+                  hero: {
+                    desc: "A high-performance public blockchain platform that is two years ahead of Ethereum 2.0.",
+                    play: "Play Video",
+                  },
+                  innovation: {
+                    title: "Innovations",
+                    li1: "Full-State Sharding",
+                    li1_text1: "Network Sharding",
+                    li1_text2: "State Sharding",
+                    li1_text3: "Compute Sharding",
+                    li2: "Lightning Speed",
+                    li2_text1: "100,000+ TPS",
+                    li2_text2: "Horizontal Scale-out",
+                    li2_text3: "Designed For Real World Apps",
+                    li3: "Designed for Real World Apps",
+                    li3_text1: "Pluggable Service Chains",
+                    li3_text2: "Application-level Smart Contracts",
+                    li3_text3: "Friendly Token Economic Model",
+                    more: "Learn More",
+                  },
+                  act: {
+                    DRAFT: "DRAFT",
+                    TOSTART: "Start on",
+                    UNDERWAY: "UNDERWAY",
+                    OVER: "Finished",
+                  },
+                  service: {
+                    title: "Additional Infrastructure and Services",
+                    text1: "Decentralized Communication Services",
+                    text2: "Decentralized Storage",
+                    text3: "Decentralized Identity",
+                    desc1: "Video, VoIP, CDN, Live streaming, etc.",
+                    desc2:
+                      "Use cryptographic hashes to identify and distribute data stored on the network",
+                    desc3:
+                      "Peer-to-peer exchange of information about people, organizations or things",
+                  },
+                  map: {
+                    title: "TOP Mainnet",
+                    desc: "A high-performance public blockchain platform for real-world Apps!",
+                    node: "Nodes in {0} Countries",
+                    online: "Online Nodes",
+                    learn: "Learn More",
+                  },
+                  roadmap: { title: "Roadmap" },
+                },
+                mining: {
+                  slogen:
+                    "TOP Mining Platform{tag}Leading the Diversified Mining Era",
+                  income: "Annualized Yield",
+                  mine: "HiWallet DeFi Mining",
+                  rights: "TOP Token{tag}Privilege",
+                  head: "Mining ROI",
+                  chain: "TOP Staking",
+                  cheap: "Exclusive Discount",
+                  discount: "15%",
+                  discount1: "off",
+                  miner: "TopIPFS Mining Machine",
+                  miner1: "TopIPFS Mining Machine",
+                  sec1: {
+                    title1: "The World's First",
+                    desc1:
+                      "Full-state sharding blockchain {tag}supports vertical expansion{tag}of layer-2",
+                    title2: "Low Entry",
+                    desc2:
+                      "Users can participate Staking with{tag}a few TOP tokenand without high{tag}technical requirements",
+                    title3: "No Risks, High Returns",
+                    desc3:
+                      "TOP token will always be in{tag}your wallet Mining ROI is about 491.52%",
+                  },
+                  more: "Learn More",
+                  sec2: {
+                    title1: "No.1 Mining Efficiency",
+                    desc1:
+                      "Dozens of algorithm experts {tag}persistently optimize the mining efficiency",
+                    title2: "IDC-5 Room in Silicon Valley",
+                    desc2:
+                      "SLA of 99.99% uptime{tag}The annual failure rate does not exceed 5.26 minutes",
+                    title3: "Low Cost, High Reward",
+                    desc3:
+                      "Scientifically assembled into super mining machines",
+                  },
+                  sec3: {
+                    title1: "Decentralized Mining",
+                    desc1:
+                      "Using smart contract to aggregate on-chain DeFi mining{tag}Eliminate tech misconduct",
+                    title2: "Selected Policies",
+                    desc2:
+                      "Popular DeFi projects are selected{tag}for providing investment options{tag}to different users",
+                    title3: "User Incentives",
+                    desc3:
+                      "Extra returns by inviting friends{tag} to DeFi mining",
+                  },
+                },
+                developer: {
+                  faucet: {
+                    12001: "Wrong TOP address",
+                    12002: "Wrong user ID",
+                    12003: "Wrong User idToken",
+                    12004: "Multiple attempts in a certain time",
+                    12005: "Failed to pass the ID verification",
+                    12006: "Wrong hash",
+                    12007: "No records of valid transaction",
+                    title: "FAUCET OF TOP",
+                    desc: "Quickly, safely receive testnet tokens",
+                    before: "Get TOP after Verification",
+                    after: "Verified",
+                    placeholder: "Enter your testnet address",
+                    request: "Get tokens",
+                    amount: "Transfer Amount",
+                    hash: "HASH",
+                    fail: "Transaction failed, please request again",
+                    success: "Get TOP successfully",
+                    copySuccess: "Copy Succeeded",
+                    copyFail: "Copy Failed",
+                  },
+                },
+                ecosystem: {
+                  top_text1: "DApp Developers",
+                  top_text2: "Node Operator & Voters",
+                  top_text3: "Service Developers",
+                  minning: {
+                    title: "TOP Mining",
+                    desc: "Run nodes on TOP, vote for nodes, and participate in on-chain governance in the TOP Ecosystem.",
+                    learn: "Learn More",
+                    name1: "Miners",
+                    text1:
+                      "Provide compute power or bandwidth to earn rewards by validating transactions and producing blocks",
+                    name2: "Voters",
+                    text2:
+                      "Lock-up tokens to vote for nodes and earn a portion of the rewards",
+                  },
+                  wallet: {
+                    title: "Wallet",
+                    hiwallet: "HiWallet",
+                    hiwallet_desc: "An easy-to-use wallet for managing TOP",
+                    hiwallet_desc_full:
+                      "An extremely easy-to-use wallet for managing multiple cryptocurrencies securely",
+                    hiwallet_download: "Download",
+                    cobo: "Cobo Wallet",
+                    cobo_desc: "Ecosystem wallet",
+                  },
+                  dapp: {
+                    title: "DApps",
+                    learn: "Learn More",
+                    app: "Apps",
+                    bitvpn: "BitVPN",
+                    bitvpn_desc:
+                      "The first decentralized VPN service on TOP AI Network",
+                    text1: "Live Streaming",
+                    text2: "Video",
+                    text3: "Gaming",
+                    text4: "IoT Data Sharing",
+                    text5: "Storage",
+                    text6: "VoIP",
+                    text7: "Asset Managemeng",
+                    text8: "CDN",
+                    text9: "Message",
+                    game: "Games",
+                    game1: "War of Three Kingdoms",
+                    game1_desc: "New story about the old kingdoms of China",
+                    game2: "The King's Business",
+                    game2_desc:
+                      "Use your power to be a great king! Enjoy the new life!",
+                    game3: "League of Crypto",
+                    game3_desc: "Become a success in the crypto world",
+                    game4: "Raiders",
+                    game4_desc: "Where small deposits can bring great bonuses",
+                  },
+                  partner: {
+                    title: "Partners",
+                    exchange: "Exchanges",
+                    minning: "Mining Pools",
+                    strategic: "Strategic Partners",
+                  },
+                },
+                faq: {
+                  pagetitle: "FAQ",
+                  titles: [
+                    "I. Project Overview",
+                    "II. Technical Details",
+                    "III. Tokens How to Earn Them",
+                    "IV. For Developers",
+                  ],
+                  articles: [
+                    {
+                      title: "I. Project Overview",
+                      questionAsk: [
+                        {
+                          question: "Q1: What is TOP?",
+                          asks: [
+                            "TOP AI Network is a decentralized blockchain ecosystem composed of a 4th-generation public blockchain, decentralized Apps (DApps), and decentralized communications services.",
+                            "TOP Chain, the public blockchain infrastructure underpinning the entire decentralized ecosystem, is the world’s first full-state sharding public chain and a high-performance platform for large-scale DApps.",
+                            "TOP Chain is powered by an innovative three-layered ledger architecture consisting of the main chain, service chains, and off-chain ledgers, and is capable of handling real-world business of any size and volume. TOP Chain applies technological innovations such as a two-layer lattice DAG, two-layer sharding, and a parallel pBFT-PoS consensus mechanism. The result is a public chain capable of processing over 100,000 transactions per second. Equipped with high TPS, airtight security, and extremely fast confirmation times, TOP Chain is a reliable platform for services demanding high-frequency transactions such as communications, gaming, social media, big data, artificial intelligence, IoT, and more.",
+                            "The long-term mission of TOP AI Network is to build a public blockchain infrastructure for all DApps. Our world-class team of over 100 developers is striving for this goal. We have already developed HiWallet, a cryptocurrency wallet, and are currently developing a series of blockchain games and more large-scale DApps on top of the ecosystem.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q2: Why did the team want to build a public blockchain platform?",
+                          asks: [
+                            "We didn't intend to build a public blockchain platform, but we soon realized we had to.",
+                            "When we started the project in 2017, we had 40 million users to move onto TOP AI Network, which meant TOP AI Network needed to process over one hundred thousand transactions per second upon its launch. We tried to find an existing public blockchain platform to serve as a ledger for TOP AI Network, but it turned out that no blockchain platform could reach such high TPS. In the end, we had no choice but to build our own ledger – a general-purpose public blockchain platform that can handle real-world business of any size or volume.",
+                          ],
+                        },
+                        {
+                          question: "Q3: What is the current status of TOP?",
+                          asks: [
+                            "The Whitepaper for TOP AI Network is available! Click “Whitepaper” on our website to get access to our whitepaper.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q4: Who has invested in your project so far?",
+                          asks: [
+                            "We closed $11 million in early investments from prestigious institutional investors, including Fenbushi Capital, Danhua Capital (DHVC), NGC, LD Capital and more.",
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      title: "II. Technical Details",
+                      questionAsk: [
+                        {
+                          question:
+                            "Q5. What’s the plan to build up the TOP AI Network ecosystem?",
+                          asks: [
+                            "The number of blockchain platforms is now far more than the number of DApp developers. We have a very large user base, and the apps we have already built can be moved to TOP AI Network. So, these users will be brought to TOP AI Network.",
+                            "Essentially, we will not count on third-party developers in the early stages. We have enough users and apps to jumpstart the ecosystem ourselves. We even have established two in-house game teams. They are building serious blockchain games beyond the complexity of simple gambling games currently topping the DApp market. Once we get all of these things done, we will reach out and begin marketing to third-party developers.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q6. What’s the plan to build up the TOP AI Network ecosystem?",
+                          asks: [
+                            "Several years ago, we designed a distributed network layer before we developed our communication apps—Dingtone, CoverMe and SkyVPN. These apps share the same underlying network layer, which will be replaced by TOP AI Network. That means Dingtone, CoverMe and SkyVPN will be transparently moved to TOP AI Network. In fact, the users won't even notice the migration process. ",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q7. How many developers are involved in TOP? Why is three layers of distributed ledgers better than a single layer?",
+                          asks: [
+                            "BitVPN is only a demo app that is being built on TOP AI Network. TOP AI Network is much more than a VPN app. We are building a public communication network infrastructure that can provide any kind of communication services, such as messaging, calling, CDN, streaming, storage, IoT data sharing and more. VPN is only one of the communication services that TOP provides.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q8: What kind of measures will be implemented to secure the chain with sharding and its security liabilities?",
+                          asks: [
+                            "Several years ago, we designed a distributed network layer before we developed our communication apps - Dingtone, CoverMe and SkyVPN. These apps share the same underlying network layer, which will be replaced by TOP AI Network. That means Dingtone, CoverMe and SkyVPN will be transparently moved to TOP AI Network. In fact, the users won’t even notice the migration process. Over 50 million users will be immediately available on TOP AI Network once it’s launched.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q9: What’s TOP’s innovative sharding technology?",
+                          asks: [
+                            "TOP Chain is the world’s first full-state sharding public chain powered by sharding technology that supports true horizontal scale-out. Each shard can achieve 500 TPS.",
+                            "In terms of sharding, TOP Chain scales through three types of comprehensive sharding: network sharding, state sharding, and compute sharding.",
+                            "The consensus network is split into three layers: the Edge Network which provides client access points, the Routing Network which audits transactions and synchronizes state, and the Consensus Network which validates transactions sent to each shard.",
+                            "State sharding manages storage across the lattice data structure, and compute sharding partitions the computation between clusters and shards to perform transaction validation in parallel.",
+                            "Thanks to comprehensive multi-layer sharding technology, TOP Chain is able to achieve horizontal scale-out to reach up to 1024 shards in total. Moreover, we can increase scalability essentially linearly by simply increasing the number of shards.",
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      title: "III. Tokens & How to Earn Them",
+                      questionAsk: [
+                        {
+                          question: "Q10: What is TOP’s token economics?",
+                          asks: [
+                            "The token economy is core to the ecosystem. Buybacks and burning has been effective in maintaining the value of stocks. In our token economy, TOP token will be burned. 10% of the communication service fee is burned. For example, let’s say a VPN app needs to pay 100 TOP tokens to some service nodes. In this case, 10 TOP tokens will be burned, and the nodes will receive 90 tokens. Secondly, apps need to deposit tokens to access resources such as bandwidth, storage, and CPU. Lastly, every validator needs to stake tokens and receive votes from token holders based on token ownership.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q11. How can I convert TOP tokens to cash after I get tokens from mining?",
+                          asks: [
+                            "TOP tokens are listed on several cryptocurrency exchanges such as Huobi Global, Coinsuper, Bithumb Global, Binance Dex, and Piexgo. You can sell TOP tokens for other cryptocurrencies or cash on those exchanges.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q12. Will you offer a bounty or proof-of-care program?",
+                          asks: [
+                            "Yes, we have kicked off an array of TOP AI Network bounty programs! You can find them on our bounty bot: https://t.me/TOPNetworkBot.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q13. I'm trying to develop a Dapp on my own. How can I make use of your project?",
+                          asks: [
+                            "Once TOP tokens are listed on a cryptocurrency exchange, you can sell the tokens for cash.",
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      title: "IV. For Developers",
+                      questionAsk: [
+                        {
+                          question:
+                            "Q13. Will you offer a bounty or proof-of-care program?",
+                          asks: [
+                            "TOP AI Network is the world’s first full-state sharding public blockchain built for high-frequency business such as communications, gaming, social networking, big data, AI and IoT. Any app can tap into the platform through our APIs and SDKs. If you are building a DApp, TOP is the perfect choice for you. With TOP, you no longer need to build your own stack, deploy servers, and maintain the network. With relatively few lines of code, you can build powerful and scalable DApps. ",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q14: If an individual wants to develop a DApp using TOP AI Network, how can he/she develop that DApp on your platform and what benefits can you provide him/her?",
+                          asks: [
+                            "Steve: You build the user interface and we handle the technical stacks. Traditionally, you may need a year to build a DApp, but with TOP you will only need a few weeks. You do not need to host your own network, which saves you tons of money.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q15. I’m trying to develop a messaging app on my own. How can I make use of your project?",
+                          asks: [
+                            "TOP AI Network provides cloud communication services such as messaging, calling, video, VPN, CDN, IoT data sharing and more. Any app can tap into this network through the API and SDK we provide. If you are building a messaging app, TOP is the perfect choice for you. With TOP, you no longer need to build your own communication stack, deploy servers, and maintain the network. With a few lines of code, you will have a powerful messaging app.",
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                team: {
+                  title: "TOP Team",
+                  prev: "Forward",
+                  next: "Next",
+                  founder: {
+                    title: "Co-founders",
+                    desc: "The TOP AI Network core technical team consists of early employees of WebEx, Fortinet and Cloud.com with extensive successful startup experience. They are experts in the fields of communications, encryption, cloud computing and cybersecurity.",
+                    humans: [
+                      {
+                        name: "Steve Wei",
+                        position: "CEO",
+                        desc: "WebEx founding employee<br/>CEO of Cenwave, acquired by Huawei<br/>CEO of Dingtone",
+                      },
+                      {
+                        name: "Noah Wang",
+                        position: "CMO",
+                        desc: "Yale MBA<br/>Managerial position at Starr, ICBC & PwC<br/>Member of Mensa International",
+                      },
+                      {
+                        name: "Taylor Wei",
+                        position: "CTO",
+                        desc: "Cryptography expert<br/>Expert in secure communication<br/>Co-founder of Dingtone",
+                      },
+                      {
+                        name: "Peter Wei",
+                        position: "VP",
+                        desc: "WebEx founding employee<br/>R&D Director of Fortinet<br/>Technology architect in TrendMicro",
+                      },
+                      {
+                        name: "Kelven Yang",
+                        position: "Chief Architect",
+                        desc: "WebEx chief architect, founding employee<br/>Founding employee of cloud.com<br/>Co-founder of Dingtone",
+                      },
+                    ],
+                  },
+                  advisor: {
+                    title: "Advisors",
+                    humans: [
+                      { name: "Eric Yuan", position: "Founder & CEO of Zoom" },
+                      { name: "Mark Greene", position: "Former CEO of FICO" },
+                      {
+                        name: "Roger Lim",
+                        position: "Founding Partner of NGC",
+                      },
+                      { name: "Kevin Hsu", position: "Founder of BlockVC" },
+                    ],
+                    join_title: "Join Us",
+                    join_desc:
+                      "You are welcome to join us via sending us your resume to ",
+                  },
+                  investor_title: "Investors",
+                },
+                news: {
+                  event: { title: "Community Events", more: "More Details" },
+                  video: { title: "Videos" },
+                  article: { title: "Articles" },
+                  media: {
+                    title: "TOP in the Media",
+                    kit: "Media KIT",
+                    desc: "Feel free to download our media kit if you're working on a story about TOP. For media inquiries, please reach out to {0}",
+                    download: "Download",
+                  },
+                },
+                innovations: {
+                  title: "TOP Chain",
+                  desc: "The world's first full-state sharding public blockchain for high-frequency businesses such as communications, games, social networking, big data, AI and IoT.",
+                  whitepaper: "Read Our Whitepaper",
+                  technical: "Technical Spotlight",
+                  section1: {
+                    title: "We Are",
+                    content: [
+                      {
+                        title: "High-performance",
+                        desc: "Innovative two-layer sharding to help achieve throughputs exceeding 10,000 TPS.",
+                      },
+                      {
+                        title: "Permissionless",
+                        desc: "Fully permissionless for everyone and anyone. No limit on the number of nodes.",
+                      },
+                      {
+                        title: "Highly Secure",
+                        desc: "hpBFT with multiple verification and audit, inspired by PoS* and unpredicted randomness.(PoS* is the proof of Comprehensive-Staking)",
+                      },
+                      {
+                        title: "User and Dev Friendly",
+                        desc: "A friendly token economic model for both users and developers. Easily implementable, turnkey solution for developers.",
+                      },
+                    ],
+                  },
+                  section2: {
+                    title: "Technology Features",
+                    desc: "Powered by an innovative three-layered ledger architecture consisting of a main chain, service chains, and off-chain ledgers, TOP Chain is capable of handling real-world business of any size and volume.",
+                    content: [
+                      {
+                        text: ["Comprehensive Multi-Layer", "Scale Technology"],
+                        desc: [
+                          "Layer 0: P2P Overlay Network",
+                          "Layer 1: State Sharding, Compute Sharding, Network Sharding",
+                          "Layer 2: State Channel, Multiple-Service Chain",
+                        ],
+                      },
+                      {
+                        text: [
+                          "Comprehensive Multi-Layer",
+                          "Sharding Technology",
+                        ],
+                        desc: [
+                          "Two-Layer: State Sharding",
+                          "Three-Layer: Compute Sharding",
+                          "Three-Layer: Network Sharding",
+                        ],
+                      },
+                      {
+                        text: ["Two-Layer Lattice State"],
+                        desc: ["Unit-Lattice", "Block-Lattice"],
+                      },
+                      {
+                        text: ["Completely Parallel", "Consensus Mechanism"],
+                        desc: [
+                          "Multi-Cores of CPU: Parallel Computing",
+                          "Multi-Roles of Node: Parallel Working",
+                          "Multi-Groups of Shard: Parallel Consensus (hpBFT)",
+                          "Multi-Shards of Chain: Parallel Transactions",
+                        ],
+                      },
+                      {
+                        text: ["Three-Layer Network"],
+                        desc: [
+                          "Edge Network",
+                          "Routing Network",
+                          "Core Network",
+                        ],
+                      },
+                    ],
+                  },
+                },
+                activity: { back: "Back", actTime: "Activity time" },
+              },
+              api_language: "EN",
+              date_language: "en",
+            },
+            ko: {
+              name: "한국어",
+              message: {
+                nav: {
+                  mining: "광산 플랫폼",
+                  tech: "기술",
+                  innovations: "기술 혁신",
+                  auditreport: "감사보고서",
+                  whitepaper: "백서",
+                  developer: "개발자",
+                  doc: "더큐먼츠&SDK",
+                  github: "GitHub",
+                  hackathon: "해커톤",
+                  ecosystem: "생태계",
+                  explorer: "TOP 스캔",
+                  wallet: "월렛",
+                  dapp: "DApps",
+                  partner: "파트너",
+                  staking: "스테이킹",
+                  handbook: "스테이킹 핸드복",
+                  staking_start: "스테이킹 시작",
+                  about: "기업정보",
+                  team: "팀 소개",
+                  news: "뉴스",
+                  faq: "FAQ",
+                  faucet: "수도꼭지",
+                  swap: "Token 맵핑",
+                },
+                footer: {
+                  contact: "Contact Us",
+                  service: "Terms of Service",
+                  privacy: "Privacy Policy",
+                  placeholder: "이메일로 가입",
+                  submit: "구독 신청",
+                },
+                home: {
+                  hero: {
+                    desc: "4세대 블럭체인 기술을 기반으로 하는 퍼블릭 체인, 탈중앙화 앱 및 각 보조 보조설비로 구성된 블록체인 시스템",
+                    play: "Play Video",
+                  },
+                  innovation: {
+                    title: "기술 혁신",
+                    li1: "폴 스테트 샤딩",
+                    li1_text1: "네트워크 샤딩(Network Sharding)",
+                    li1_text2: "스테트 샤딩(State Sharding)",
+                    li1_text3: "컴뷰팅 샤딩(Compute Sharding)",
+                    li2: "라이티닝 스비드",
+                    li2_text1: "100,000+ TPS",
+                    li2_text2: "수평의 스케일 아웃",
+                    li2_text3: "리얼 워드 앱을 위해 설계",
+                    li3: "리얼 워드 앱을  위한 블록체인",
+                    li3_text1: "Pluggable 서비스 체인",
+                    li3_text2: "어플리케이션-레벨 스마트 컨스랙트",
+                    li3_text3: "친화형 토큰 에코노믹 모델",
+                    more: "더 알아보기",
+                  },
+                  act: {
+                    DRAFT: "DRAFT",
+                    TOSTART: "TOSTART",
+                    UNDERWAY: "UNDERWAY",
+                    OVER: "OVER",
+                  },
+                  service: {
+                    title: "추가적인 기초 시설과 서비스",
+                    text1: "탈중앙화 통신 서비스",
+                    text2: "탈중앙화 저장",
+                    text3: "탈중앙화 ID",
+                    desc1:
+                      "비디어,  VoIP,  CDN, 메시지, 라이브 방송등 서비스 제공 가능",
+                    desc2:
+                      "암호화 해시를 통해 네트워크에 저장된 데이터를 식별 및 배포 가능",
+                    desc3: "중앙화 기관의 인증 필요없이 디지털 신원 관리 가능",
+                  },
+                  map: {
+                    title: "TOP 메인넷",
+                    desc: "리얼 앱을위한 고성능 퍼블릭 체인 플랫폼",
+                    node: "도드는 총 {0}국가에서 분포",
+                    online: "온라인 노드",
+                    learn: "더 알아보기",
+                  },
+                  roadmap: { title: "로드맵" },
+                },
+                mining: {
+                  slogen:
+                    "TOP Mining Platform{tag}Leading the Diversified Mining Era",
+                  income: "Annualized Yield",
+                  mine: "HiWallet DeFi Mining",
+                  rights: "TOP Token{tag}Privilege",
+                  head: "Mining ROI",
+                  chain: "TOP Staking",
+                  cheap: "Discount",
+                  discount: "15%",
+                  discount1: "off",
+                  miner: "TopIPFS Mining Machine",
+                  miner1: "TopIPFS Mining Machine",
+                  sec1: {
+                    title1: "The World's First",
+                    desc1:
+                      "Full-state sharding blockchain {tag}supports vertical expansion{tag}of layer-2",
+                    title2: "Low Entry",
+                    desc2:
+                      "Users can participate Staking with{tag}a few TOP tokenand without high{tag}technical requirements",
+                    title3: "No Risks, High Returns",
+                    desc3:
+                      "TOP token will always be in{tag}your wallet Mining ROI is about 491.52%",
+                  },
+                  more: "Learn More",
+                  sec2: {
+                    title1: "No.1 Mining Efficiency",
+                    desc1:
+                      "Dozens of algorithm experts {tag}persistently optimize the mining efficiency",
+                    title2: "IDC-5 Room in Silicon Valley",
+                    desc2:
+                      "SLA of 99.99% uptime{tag}The annual failure rate does not exceed 5.26 minutes",
+                    title3: "Low Cost, High Reward",
+                    desc3:
+                      "Scientifically assembled into super mining machines",
+                  },
+                  sec3: {
+                    title1: "Decentralized Mining",
+                    desc1:
+                      "Using smart contract to aggregate on-chain DeFi mining{tag}Eliminate tech misconduct",
+                    title2: "Selected Policies",
+                    desc2:
+                      "Popular DeFi projects are selected{tag}for providing investment options{tag}to different users",
+                    title3: "User Incentives",
+                    desc3:
+                      "Extra returns by inviting friends{tag} to DeFi mining",
+                  },
+                },
+                developer: {
+                  faucet: {
+                    12001: "Wrong TOP address",
+                    12002: "Wrong user ID",
+                    12003: "Wrong User idToken",
+                    12004: "Multiple attempts in a certain time",
+                    12005: "Failed to pass the ID verification",
+                    12006: "Wrong hash",
+                    12007: "No records of valid transaction",
+                    title: "FAUCET OF TOP",
+                    desc: "Quickly, safely receive testnet TOP",
+                    before: "Get TOP after Verification",
+                    after: "Verified",
+                    placeholder: "Enter your testnet address",
+                    request: "Get TOP",
+                    amount: "Transfer Amount",
+                    hash: "HASH",
+                    fail: "Transaction failed, please request again",
+                    success: "Get TOP successfully",
+                    copySuccess: "Copy Succeeded",
+                    copyFail: "Copy Failed",
+                  },
+                },
+                ecosystem: {
+                  top_text1: "DApp 개발자",
+                  top_text2: "노드 오퍼레이터&투표",
+                  top_text3: "서비스 개발자",
+                  minning: {
+                    title: "TOP 스테이킹",
+                    desc: "톱 노드로, 도드에게 투표, 톱의 생태계 관리에 참여",
+                    learn: "더 알아보기",
+                    name1: "Miners",
+                    text1:
+                      "해시레이트나 밴드위스를 제공하여 거래 검증 및 블록 생성으로 리워드 획득",
+                    name2: "Voters",
+                    text2: "토큰을 락업하여 노드에 투표하면 리워드 획득 가능 ",
+                  },
+                  wallet: {
+                    title: "월렛",
+                    hiwallet: "HiWallet",
+                    hiwallet_desc:
+                      "쉽고 잘 이용할 수 있는 지갑, 다종 토큰 지원",
+                    hiwallet_desc_full:
+                      "쉽고 잘 이용할 수 있는 지갑, 다종 토큰 지원",
+                    hiwallet_download: "다운로드",
+                    cobo: "Cobo Wallet",
+                    cobo_desc: "Ecosystem wallet",
+                  },
+                  dapp: {
+                    title: "DApps",
+                    learn: "더 알아보기",
+                    app: "App",
+                    bitvpn: "BitVPN",
+                    bitvpn_desc: "톱의 첫번째 탈중앙화 앱",
+                    text1: "Live Streaming",
+                    text2: "Video",
+                    text3: "Gaming",
+                    text4: "IoT Data Sharing",
+                    text5: "Storage",
+                    text6: "VoIP",
+                    text7: "Asset Managemeng",
+                    text8: "CDN",
+                    text9: "Message",
+                    game: "게임",
+                    game1: "War of Three Kingdoms",
+                    game1_desc: " ",
+                    game2: "The King's Business",
+                    game2_desc: " ",
+                    game3: "League of Crypto",
+                    game3_desc: " ",
+                    game4: "Raiders",
+                    game4_desc: " ",
+                  },
+                  partner: {
+                    title: "파트너",
+                    exchange: "거래소",
+                    minning: "마이닝 폴",
+                    strategic: "전략적인 파트너",
+                  },
+                },
+                faq: {
+                  pagetitle: "FAQ",
+                  titles: [
+                    "I. 프로젝트 소개",
+                    "II. 톱(TOP) 기술에 관련된 질문",
+                    "III. 톱(TOP) 토큰에 관련된 질문",
+                    "IV. 톱(TOP) 개발에 관련된 질문",
+                  ],
+                  articles: [
+                    {
+                      title: "I. 프로젝트 소개",
+                      questionAsk: [
+                        {
+                          question: "Q1 : 톱(TOP)이란?",
+                          asks: [
+                            "톱 네트워크(TOP AI Network)는 4세대 퍼블릭 체인, 탈중앙화 앱(DApp) 및 탈중앙화 커뮤니케이션 서비스로 구성된 블록체인 생태계입니다.",
+                            "전체 분산형 생태계를 뒷받침하는 퍼블릭 체인 인프라인 톱 체인(TOP Chain)은 세계 최초의 폴 스테이트 샤딩 퍼블릭 체인이며 대규모 DApp을 위해 구성된 고성능 플랫폼입니다. 톱 체인은 메인 체인, 서비스 체인 및 오프 체인 원장 3 계층 아키텍처로 구성된 블록체인입니다. 톱 체인은 모든 규모의 진실 비즈니스를 처리할 수 있으며 2 층 격자 DAG, 2 층 샤딩 및 병행 pBFT-PoS 컨센서스 메커니즘과 같은 기술 혁신을 실현했습니다. 초당 100,000 건 이상의 트랜잭션을 처리할 수 있는 실클 체인을 만들고 있습니다. 높은 TPS, 완벽한 보안 및 매우 빠른 확인 속도를 갖춘 톱 체인은 통신, 게임, 소셜 미디어, 빅 데이터, 인공 지능, IoT 등과 같은 고주파 거래를 요구하는 서비스를 위한 안정적인 플랫폼입니다. TOP AI Network의 장기적인 임무는 모든 DApp을 위한 퍼블릭 체인 인프라를 구축하는 것입니다. 100 명 이상의 개발자로 구성된 세계적인 팀이 목표를 달성하기 위해 노력하고 있습니다. 우리는 이미 암호 화폐 지갑인 HiWallet을 개발했으며, 현재 생태계를 기반으로 일련의 블록 체인 게임과 더 큰 규모의 DApp을 개발하고 있습니다.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q2 : 팀은 왜 퍼블릭 블록 체인 플랫폼을 구축하려고 하나?",
+                          asks: [
+                            "처음에 저희는 퍼블릭 블록체인 플랫폼을 만들려고 하지 않았지만 개발하다가 꼭 저희 퍼블릭 블록체인 플랫폼을 만들어야 한다는 것을 깨달았습니다. 2017년에 저희 프로젝트를 시작했을 때는 4 천만 명의 유저들을 톱 네트워크로 이동시키려고 했는데 이렇게 한다면 톱 체인은 초당 10건 이상 트랜잭션을 처리해야 합니다. 그래서 저희는 기존 퍼블릭 블록 체인 플랫폼을 찾으려고 시도했지만 그러한 높은 TPS에 도달 할 수 있는 블록 체인 플랫폼은 없다는 것을 알게 되었습니다. 결국, 저희는 자신의 원장을 구축하기로 결정했습다. 트랜잭션 규모의 제한 없는 리얼 비즈니스를 처리 할 수있는 퍼플릭 체인 플랫폼을 만들고자 합니다.",
+                          ],
+                        },
+                        {
+                          question: "Q3 : 톱 백서가 있나?",
+                          asks: [
+                            "톱 네트워크백서가 있습니다! 톱 홈페이지에서 “백서”를 클릭하여 백서를 참고로 하세요.",
+                          ],
+                        },
+                        {
+                          question: "Q4 : 지금까지 톱(TOP)에 투자를 한 기관은?",
+                          asks: [
+                            "우리는 Fenbushi Capital, Danhua Capital (DHVC), NGC, LD Capital 등 투자 기관으로 부터 1,100만 달러의 초기 투자를 받았습니다.",
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      title: "II. 톱(TOP) 기술에 관련된 질문",
+                      questionAsk: [
+                        {
+                          question: "Q5. 톱 네트워크의 생태계 구축 계획은?",
+                          asks: [
+                            "현재까지 블록체인 플랫폼의 수는 DApp 개발자의 수보다 훨씬 많습니다.  톱은 대규모의 유저들을을 기반으로 하며 기존 앱과 유저들을 톱 네트워크로 옮겠습니다. 초기 단계에는 제3자 개발자에게 의존하지 않습니다. 생태계를 빠르게 구축할 수있는 충분한 유저들과 앱이 있으니까요. 그리고, 톱은 게임 개발팀을 설립했고 게임 팀은 전문적인 블록체인 게임을 만들고 있습니다. 게임 개발 과정이 완료되면 제3자 개발자에게 공지하도록 하겠습니다.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q6. 어떻게 1억 유저들을 톱으로 이동시킬 수 있나?",
+                          asks: [
+                            "톱 개발팀은 Dingtone, CoverMe 및 Proxy과 같은 통신 앱을 개발하기 전에 탈중앙화 네트워크 계층을 설계했습니다. 이러한 앱은 동일한 기본 네트워크 계층을 공유하며 이런 기본 네트워크는 TOP 네트워크로 대체됩니다. 이는 Dingtone, CoverMe 및 Proxy를 TOP 네트워크로 투명하게 이동시킨다는 것을 의미합니다. 실제로 사용자는 마이그레이션 프로세스를 느낄 수 없습니다.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q7 : 톱 체인 개발에 참여하는 개발자 수는? 단일 계층보다 3 계층의 장점은?",
+                          asks: [
+                            "톱 네트워크는100명 이상의 개발자를 보유하고 있습니다. 단일 레이어는 한계가 있고 메인 체인만 있으면 모든 것을 처리할 수 있는 게 아닙니다.  재무 및 비즈니스 로직을 분리하고 내장된 레이어 2 상태 채널을 구현합니다.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q8 : 톱 체인의 보안 문제를 해결하는 방법은?",
+                          asks: [
+                            "저희는 3 계층 아키텍처를 가지고 있으며, 트랜잭션이 샤드에서 검증된 후에는 고급 네트워크에 의해 감사될 것이라서 누군가가 샤드를 제어하더라도 고급 네트워크를 무시할 수 없습니다.",
+                          ],
+                        },
+                        {
+                          question: "Q9 : 톱의 혁신적인 샤딩 기술이 무엇이가?",
+                          asks: [
+                            "톱 체인은 수평 스케일 아웃을 지원하는 샤딩 기술로 구동되는 세계 최초의 폴 스테이트 샤딩 퍼블릭 체인으로, 각 샤드는 500 TPS를 달성 할 수 있습니다.",
+                            "폴 스테이트 샤딩 측면에서 톱 체인은 네트워크 샤딩, 스테이트 샤딩 및 컴퓨팅 샤딩의 세 가지 유형의 종합 샤딩을 통해 확장됩니다.",
+                            "컨센서스 네트워크는 클라이언트 액세스 포인트를 제공하는 에지 네트워크, 트랜잭션을 감사하고 상태를 동기화하는 라우팅 네트워크 및 각 샤드로 전송 된 트랜잭션의 유효성을 검사하는 컨센서스 네트워크의 세 계층으로 나뉩니다.",
+                            "스테이트 샤딩은 격자 데이터 구조에서 스토리지를 관리하고 샤딩 계산은 클러스터와 샤드간에 계산을 분할하여 트랜잭션 유효성 검사를 병렬로 수행합니다.",
+                            "종합적인 다층 샤딩 기술 덕분에 톱 체인은 수평 스케일 아웃을 달성하여 총 1024 개의 샤드에 도달할 수 있으며 샤드 수를 늘리면 본질적으로 선형적으로 확장성을 높일 수 있습니다.",
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      title: "III. 톱(TOP) 토큰에 관련된 질문",
+                      questionAsk: [
+                        {
+                          question: "Q10 : 톱 토큰 경제는 무엇인가?",
+                          asks: [
+                            "토큰 이코노미가 톱 생태의 핵심입니다. 바이백 또는 버닝 주식 시장에서 가치를 유지하는 데 효과적임이 입증되었습니다. 토큰 이코노미에서는 TOP 토큰이 소각될 것입니다. 통신 서비스 수수료의 10%가 소각됩니다. 예를 들어 VPN앱은 일부 노드에 100 개의 TOP 토큰을 지불해야 하고, 10 개의 TOP 토큰이 버닝될 것입니다. 그러면 노드에 90 개의 토큰이 있겠습니다. 두째로, 앱은 대역폭, 스토리지 및 CPU와 같은 리소스에 액세스하기 위해 토큰을 입금해야 합니다. 검사기 노드는 토큰을 스테크하고 토큰 보유자로부터 투표를 받겠습니다.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q11 : 채굴에서 토큰을 얻은 후 톱 토큰을 현금으로 변환하려면 어떻게 해야 하나?",
+                          asks: [
+                            "TOP 토큰은 Huobi Global, Coinsuper, Bithumb Global, Binance Dex 및 Piexgo와 같은 여러 암호 화폐 거래소에 상장되어 있으며 해당 거래소에서 토큰을 판매하면 현금을 받을 수 있습니다.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q12 :  바운티 또는 케어 증명 프로그램을 제공하나?",
+                          asks: [
+                            "네, 톱 네트워크 바운티 프로그램을 시작했습니다. 바운티 봇 (https://t.me/TOPNetworkBot)에서 찾을 수 있습니다.",
+                          ],
+                        },
+                      ],
+                    },
+                    {
+                      title: "IV. 톱(TOP) 개발에 관련된 질문",
+                      questionAsk: [
+                        {
+                          question:
+                            "Q13. DApp을 직접 개발하려고 하는데 어떻게 프로젝트를 활용할 수 있나?",
+                          asks: [
+                            "톱 네트워는 통신, 게임, 소셜 네트워킹, 빅 데이터, AI 및 IoT와 같은 고주파수 비즈니스를 위한 세계 최초의 풀 스테이트 퍼블릭 블록 체인으로, 모든 앱은 우리가 제공하는 API 및 SDK를 통해 네트워크를 활용할 수 있습니다. 톱을 사용하면 완벽한 앱을 선택할 수 있으며, TOP을 사용하면 더 이상 자체 스택을 구축하고 서버를 배포하며 네트워크를 유지 관리 할 필요가 없으며 몇 줄의 코드만으로도 강력한 DApp만들 수 있습니다.",
+                          ],
+                        },
+                        {
+                          question:
+                            "Q14 : 개인이 톱 네트워크를 사용하여 DApp을 개발하는 경우, 플랫폼에서 해당 DApp을 어떻게 개발하고 어떤 혜택을 제공할 수 있나?",
+                          asks: [
+                            "사용자 인터페이스를 구축하고 스택을 처리합니다. 전통적으로 DApp을 구축하는 데 1 년이 걸리겠지만 이제는 몇 주가 필요합니다. 자신의 네트워크를 호스팅할 필요가 없으므로 많은 비용을 절약할 수 있습니다. ",
+                          ],
+                        },
+                        {
+                          question: "Q15 : 톱의 스마트 계약은 무엇인가?",
+                          asks: [
+                            "톱은 플랫폼 스마트 계약 및 애플리케이션 계층 스마트 계약 두 가지 유형이 구분됩니다. 플랫폼 스마트 계약은 톱의 생태계에서 토큰 경제 및 온 체인 거버넌스를 위해 설계되었습니다. 현재 LUA 만 지원하는 애플리케이션 스마트 계약은 DApp에 사용됩니다. 나중에 더 많은 언어를 지지될 것입니다.",
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+                team: {
+                  title: "TOP Team",
+                  prev: "Forward",
+                  next: "Next",
+                  founder: {
+                    title: "Co-founders",
+                    desc: "TOP의 핵심 팀은 웹엑스, Fortinet 및 Cloud.com의 초기 직원으로 구성되어 있으며 통신, 암호화, 클라우드 컴퓨팅 및 네트워크 보안 전문가로서 풍부한 기업가 배경을 가지고 있습니다.",
+                    humans: [
+                      {
+                        name: "Steve Wei",
+                        position: "CEO",
+                        desc: "칭화 대학교 출신<br/>연쇄 성공적인 창업자<br/>웹엑스의 창립 직원<br/>Cenwave를 설립했고 화웨이에 인수되었음<br/>Dingtone을 설립했고 1억 명의 유저들 보유",
+                      },
+                      {
+                        name: "Noah Wang",
+                        position: "CMO",
+                        desc: "예일 대학교 MBA<br/>중국 공상 은행, 프라이스워터하우스쿠퍼스의 전 관리직<br/>중국CCTV 특별 해설자<br/>CFA및 CPA, 국제 멘사 협회 회원",
+                      },
+                      {
+                        name: "Taylor Wei",
+                        position: "CTO",
+                        desc: "웹엑스 창립 직원<br/>고급 네트워크 아키텍트<br/>Dingtone co-found",
+                      },
+                      {
+                        name: "Peter Wei",
+                        position: "VP",
+                        desc: "웹엑스 창립 직원<br/>Fortinet 아키텍트<br/>TrendMicro 기술 아키텍트<br/>33 개의 특허 보유",
+                      },
+                      {
+                        name: "Kelven Yang",
+                        position: "치에프 아키텍트",
+                        desc: "웹엑스 치에프 아키텍트<br/>Cloud.com창립 직원<br/>Dingtone co-found",
+                      },
+                    ],
+                  },
+                  advisor: {
+                    title: "Advisors",
+                    humans: [
+                      { name: "Eric Yuan", position: "ZOOM CEO 및 창립자" },
+                      { name: "Mark Greene", position: "FICO 前 CEO" },
+                      { name: "Roger Lim", position: "NGC 파트너" },
+                      { name: "Kevin Hsu", position: "BlockVC 창립자" },
+                    ],
+                    join_title: "Join Us",
+                    join_desc: "Send your resume to ",
+                  },
+                  investor_title: "Investors",
+                },
+                news: {
+                  event: { title: "커뮤니티 이벤트", more: "More Details" },
+                  video: { title: "비디오" },
+                  article: { title: "블로그" },
+                  media: {
+                    title: "TOP 핫 이슈",
+                    kit: "미디어 자료",
+                    desc: "톱의 미디어 키트를 다운로드하세요. 다른 미디어 재료가 필요하면{0}로 문의하세요.",
+                    download: "Download",
+                  },
+                },
+                innovations: {
+                  title: "TOP 체인",
+                  desc: "세계 최초로 통신, 게임, 소셜네트워크서비스(SNS), 빅데이터, AI, IoT 등 빈번히 일어나는 업무를 위한 풀스테이트 퍼블릭  블록체인.",
+                  whitepaper: "화이트 페이퍼 보기",
+                  technical: "테크니컬 스포트라이트",
+                  section1: {
+                    title: "TOP 소개",
+                    content: [
+                      {
+                        title: "하이퍼포먼스",
+                        desc: "10,000 TPS를 초과하는 처리량을 달성할 수 있도록 지원하는 혁신적인 2 레이어 샤딩.",
+                      },
+                      {
+                        title: "무허가",
+                        desc: "모든 사람과 누구에게나 완전히 무허가 된다. 노드 수에 아무 제한이 없다.",
+                      },
+                      {
+                        title: "높은 보안성",
+                        desc: "PoS*에서 영감을 받아 복수의 검증 및 감사를 수행하는 hpBFT 및 예상치 못한 무작위성.(PoS*는 종합적인 스테이킹의 증거다.)",
+                      },
+                      {
+                        title: "유저 및 개발자 친화적",
+                        desc: "유저와 개발자 모두를 위한 친숙한 토큰 경제 모델이다. 쉽게 구현할 수 있는 개발자를 위한 턴키 솔루션.",
+                      },
+                    ],
+                  },
+                  section2: {
+                    title: "기술 특징",
+                    desc: "메인 체인, 서비스 체인, 오프체인 레저로 구성된 혁신적인 3중 원장 아키텍처를 기반으로 하는 TOP 체인은 아무 규모의실제 비즈니스를 처리할 수 있다.",
+                    content: [
+                      {
+                        text: ["종합적인 멀티 레이어 ", "스케일 테크놀로지"],
+                        desc: [
+                          "레이어 0: P2P 오버레이 네트워크",
+                          "레이어 1: 스테이트 샤딩, 컴퓨트 샤딩, 테트워크 샤딩",
+                          "레이어 2: 스테이트 채널, 멀티플 서비스 체인",
+                        ],
+                      },
+                      {
+                        text: ["종합적인 멀티 레이너", "샤딩 테크놀로지"],
+                        desc: [
+                          "2-레이어: 스테이트 샹딩",
+                          "3-레이어: 컴퓨터 샤딩",
+                          "3-레이어: 테트워크 샤딩",
+                        ],
+                      },
+                      {
+                        text: ["2-레이어 래티스 스테이트"],
+                        desc: ["유니트-래티스", "블록-래티스"],
+                      },
+                      {
+                        text: ["완전 평행", "컨센서스 메커니즘"],
+                        desc: [
+                          "CPU의 다중 코어: 평행 컴퓨팅",
+                          "노드의 다중 역할: 평행 작업",
+                          "샤드의 다중 그룹: 평행 컨센서스 (hpBFT)",
+                          "체인의 다중 샤드: 평생 거래 ",
+                        ],
+                      },
+                      {
+                        text: ["3-레이어 네트워크"],
+                        desc: [
+                          "에지 네트워크",
+                          "라우팅 네트워크",
+                          "코어 네트워크",
+                        ],
+                      },
+                    ],
+                  },
+                },
+                activity: { back: "Back", actTime: "Activity time" },
+              },
+              api_language: "KO",
+              date_language: "ko",
+            },
+          },
+        },
+        routing: { history: null, location: null },
+      };
+      window.__INITIAL_DATA__ = { "/en/innovations": {} };
+    </script>
+    <div id="app">
+      <nav class="nav">
+        <a href="/en/"
+          ><img src="/static/images/newlogo.png" alt="" class="nav-logo"
+        /></a>
+        <div class="nav-right" style="display: none">
+          <span class="nav-drop-down" style="color: white; padding-left: 20px"
+          ><a href="/"
+            >Home</a
+          ></span
+        >
+        <span class="nav-drop-down" style="color: white; padding-left: 20px"
+          ><a href="https://top.topstaking.io/" target="_blank"
+            >Staking</a
+          ></span
+        >
+        <div class="drop-down nav-drop-down">
+          <span>Ecosystem</span>
+          <div class="drop-down__container">
+            <div class="drop-down__item">
+              <a
+                target="_blank"
+                href="https://bridge.topnetwork.org/#/integratedCrossChain"
+                style="display: block"
+                >Bridge</a
+              >
+            </div>
+            <div class="drop-down__item">
+              <a
+                target="_blank"
+                href="/en/ecosystem#wallet"
+                style="display: block"
+                >Wallets</a
+              >
+            </div>
+            <div class="drop-down__item">
+              <a
+                href="/en/ecosystem#dapp"
+                target="_blank"
+                style="display: block"
+                >Dapps</a
+              >
+            </div>
+            <div class="drop-down__item">
+              <a
+                target="_blank"
+                href="/en/ecosystem#partner"
+                style="display: block"
+                >Partners</a
+              >
+            </div>
+          </div>
+        </div>
+        <span class="nav-drop-down" style="color: white; padding-left: 20px"
+        ><a href="https://sorojins-organization.gitbook.io/top-ai" target="_blank"
+          >Read Docs</a
+        ></span>
+
+        </div>
+        <div class="icons">
+          <a href="https://x.com/TopAI_Eth" target="_blank"
+            ><svg width="15.135" height="12.525">
+              <defs>
+                <clipPath id="twitter_svg__a">
+                  <path
+                    data-name="\u8DEF\u5F84 25090"
+                    d="M875.481-126.852a3.166 3.166 0 00-2.133 3.184l.033.542-.547-.066a8.887 8.887 0 01-5.205-2.565l-.722-.719-.186.531a3.2 3.2 0 00.678 3.273c.437.464.339.531-.415.254a1.3 1.3 0 00-.514-.122 3.974 3.974 0 00.393 1.482 3.533 3.533 0 001.5 1.415l.536.254-.634.011c-.612 0-.634.011-.568.244a3.308 3.308 0 002.045 1.814l.678.232-.59.354a6.134 6.134 0 01-2.931.818 3.214 3.214 0 00-.9.089 8.355 8.355 0 002.111.973 9.227 9.227 0 007.174-.818 9.614 9.614 0 003.642-4.291 11.4 11.4 0 00.744-3.316c0-.509.033-.575.645-1.183a7.206 7.206 0 00.766-.851c.11-.21.1-.21-.459-.022-.929.332-1.061.288-.6-.21a3.224 3.224 0 00.744-1.183c0-.033-.164.022-.35.122a6.045 6.045 0 01-.962.376l-.59.188-.536-.365a4.442 4.442 0 00-.929-.486 3.736 3.736 0 00-1.918.041z"
+                    fill="#8b8b8b"
+                    clip-rule="evenodd"
+                  ></path>
+                </clipPath>
+                <clipPath id="twitter_svg__b">
+                  <path
+                    data-name="\u8DEF\u5F84 25089"
+                    d="M857-107.729h30.271V-138H857z"
+                    transform="translate(-857 138)"
+                    fill="#8b8b8b"
+                  ></path>
+                </clipPath>
+              </defs>
+              <g
+                data-name="\u7EC4 7290"
+                transform="translate(-866 127)"
+                clip-path="url(#twitter_svg__a)"
+              >
+                <g
+                  data-name="\u7EC4 7289"
+                  transform="translate(858.432 -136.249)"
+                  clip-path="url(#twitter_svg__b)"
+                >
+                  <path
+                    data-name="\u8DEF\u5F84 25088"
+                    d="M3.363 5.045h23.544v20.934H3.363z"
+                    fill="#8b8b8b"
+                  ></path>
+                </g>
+              </g></svg></a
+          ><a href="https://t.me/TopAI_Eth" target="_blank"
+            ><svg width="16.457" height="13.943">
+              <path
+                data-name="telegram (2)"
+                d="M6.191 13.1l.256-3.9 7.012-6.379c.31-.286-.064-.424-.475-.175L4.328 8.168l-3.744-1.2c-.8-.23-.813-.793.183-1.2L15.349.089c.667-.3 1.306.166 1.05 1.2L13.92 13.1c-.173.839-.676 1.042-1.37.655l-3.78-2.821-1.817 1.779a.964.964 0 01-.762.387z"
+                fill="#8b8b8b"
+              ></path></svg></a
+          ><a href="https://discord.gg/ARMNKCH" target="_blank"
+            ><svg width="14.343" height="15.939">
+              <path
+                d="M12.617 1.11a1.744 1.744 0 011.726 1.644v14.3l-1.773-1.51-.973-.889-1.062-.928.444 1.464H1.68a1.646 1.646 0 01-1.682-1.644V2.757A1.679 1.679 0 011.685 1.11h10.927zM8.565 4.884h-.02l-.134.133a5.33 5.33 0 012.037 1.021 7.189 7.189 0 00-2.479-.755 6.789 6.789 0 00-1.639 0h-.132a5.891 5.891 0 00-1.861.488c-.309.135-.487.223-.487.223a4.721 4.721 0 012.13-1.021l-.089-.09a3.972 3.972 0 00-2.3.843 10.416 10.416 0 00-1.2 4.662 2.888 2.888 0 002.479 1.2s.265-.354.533-.665a2.621 2.621 0 01-1.423-.932 2.195 2.195 0 01.222.133h.04a.053.053 0 01.04.02.051.051 0 00.04.02c.219.09.437.179.616.266a5.406 5.406 0 001.192.356 6.783 6.783 0 002.126 0 6.107 6.107 0 001.192-.355 9.543 9.543 0 00.925-.489 2.632 2.632 0 01-1.46.932c.219.309.526.664.526.664a3.454 3.454 0 002.563-1.146 10.394 10.394 0 00-1.2-4.662 3.975 3.975 0 00-2.275-.837l.037-.013zM8.68 7.81a.89.89 0 11-.841.891.865.865 0 01.841-.891zm-3.009 0a.89.89 0 11-.844.891.864.864 0 01.844-.891z"
+                fill="#8b8b8b"
+              ></path></svg
+          ></a>
+        </div>
+        <img
+          class="nav-expand"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAA3klEQVRoQ+2awQ3DMAwD48nazbpZ0c0UOANUsn4UL28KIHlC4BhZl9mzzPJeBJ5OHMIQHtbAiojPsEx/4+zAQeDBDUB4MNwnGoQhPKyBvdJWx0ursM9La9jGpnEInFYkLoCwOMDUPoTTisQFEBYHmNqHcFqRuMCPcES8xKEd2efG46guQTGEBaEdWYbwUV2CYkvCb0FQbct+J612VaKDEBYFV7YN4XJVokIIi4Ir24ZwuSpRIYRFwZVtQ7hclahwfw9/Rb23bFteAPA3bWtXRIZYaRFQbZuWhH/tugQHbxTcZFhbmCfNAAAAAElFTkSuQmCC"
+        />
+        <div class="top-slcak">
+          <div>
+            <a href="/activity"
+              ><img
+                src="/images/14a4f6775c2ccb2f0e34c58f93f55b37.be-en.png"
+                alt="Be a miner"
+            /></a>
+          </div>
+        </div>
+      </nav>
+      <div class="innovations" style="background: #120e02">
+        <div class="outinnovations" style="background: #120e02">
+          <div class="innovationsContent1">
+            <div class="innovationsContent1title">TOP Chain</div>
+            <div class="innovationsDescription">
+              The world&#x27;s first full-state sharding public blockchain for
+              high-frequency businesses such as communications, games, social
+              networking, big data, AI and IoT.
+            </div>
+            <div class="innovationsBtns">
+              <button class="innovationsBtn1">Read Our Whitepaper</button
+              ><button class="innovationsBtn2">AI Litepaper</button>
+            </div>
+          </div>
+        </div>
+        <section
+          class="innovations-section1"
+          style="background: #120e02; color: #ffffff"
+        >
+          <div>
+            <h1 style="color: #ffffff">What Can You Do with TOP?</h1>
+            <div class="innovations-section1-content">
+              <div>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAAAXNSR0IArs4c6QAADxdJREFUeF7dm3t4VdWVwH/r3HuTm/cTgcQGAqI85FGr1DJqq3bQr1OUCghOlTJY7XT4+PCBiIpwEUwJIjrjo/Mp8tUpdVQktL46oHRERkbRkgEVEdBACOFNQm5u7s19nD3sQ2CAvM699wRx1vflyx/3nL3X/p211l5777WFsyMuwAOkAt/Jz8+/fPjw4X/Tr1+/gT169CjKy8vLys/PT0tNTfW43W48Hk80EAg0+/3+QFNT097du3d/uXPnzvfffPPNd/1+fy0QBSJArKvVly7swA1kAnnFxcWXTpgwYcKwYcMuHTJkSPdBgwaluFyuuPs+evRodOPGjfu3bNny4UsvvfT79evX/xU4CjR1Fay4lbQBVFtKptfrHTRlypR/vP76668bMWJEQXp6uqN9hcNhtX79+v3vvPNORVlZ2fNAFdDoNCgnlTaAnJKSku/df//9M0aPHv3DoqKiFBtAk35k69atjcuXL6+YPXv2PwPbW0CppBsGnACk28hxu93DysvL7504ceJ1hYWF2oo6ErVnz57mmpqa+pqamkMHDhxorKmpidbV1UUjkQiRSCS1sLDQVVBQ4C0pKcnp06dP3oABAzJyc3N1LGtXNm3aVD9v3rw/rFix4nfAF0AgWUjJAtJWUzp+/PgJs2bNmn7xxRfntqdQbW1t8wcffFC9Zs2amtWrV39eVVWlB7AD2A3Ut3x1f8tHKwAygPN0+/rP5XJddNVVVw0YNWrUeTfccENx3759dcBvJaZpqldeeWXb1KlTyw4fPvxn4BCQsDUlCyj36aeffnHy5Mmj0tLSWrUVDAbNVatW1S5ZsmTrW2+9tRZYB1QCDQl8Wf0xioHLgStHjhw5/O677+43cuTIPMMwWvX9xRdfhMvKymYvW7ZMu10ogf6sV5IBZOzcuXNmr169Hj2zcw3m9ddf3/zwww+/t3379neBj1q+ZKJ6nvmedrVewI+vuOKKq8vLy68cMWKEhneaBIPB5oqKistuvfXWTxPtOClA4XB4jcfj+dGpna9bt273tGnT3qysrKwANiRoLXbHo/U/X4O64447xsydO/fqnj17pp/6st/vvz07O3up3QbPfC4ZQMRisQcNw7AsKBAIxObPn79uwYIF/wZo399nRyk1jhTySCOEmwg6d9IpZRQvUeoIynLCNtrR7jekZ8+eY5ctWzbummuuuVC/o5QK7d27d1hxcfGXNtpo85GkAAGuPXv2/EM0Gu03ceLEfWvXrtUx5n9aMt1WHSofbqo5j5gVeHsgdEM4DyETRSqmlW2DQQShGUUjigMoDlrAXVRRwgHxWZl0W5IDXLp48eLvT5o0KbOurm5l3759P04UTrIxyFa/ahJeFH1xMxiTvkBvsP4XWXAgB4W2gNYimFamrCGBXmJ8hVCFwVc0s5lcvpanaLalSIIPJWtB7Xar/p48UrgUg8sQhmEyBOE7QFqCup54TS8rqhE2A5uI8QlhPpGXqEuy3S5xsdZuNIlcDAvMSBRXAQNb1mRdob9eWmxBeB+T1Zh8Ir+zcirHxDELUnfiQRhKlLEI1wIDECvZ63pRVsb8BYo1uHiVIjZ3EKfi0scRQOrnZJPGj4E7LJdS6Ez47ItwGMUGFEsI8q78IaGE9DS9kwak7qTk2Er6F8AYFBcjdLhe6nJqihjCZ8CKY0uUF+U5qpPpM2FASmfhkyklhYUorgbyk1GkC949gvCfhJnBUqokwfVYQoCUD4NaLkTQSeJ1Zy3WxEvxeGxaheIhitgmPittiEviBmRZzj/R/9hq+zHgRyh0ah93O3FpmfjDCrF2G987luzfx7NsjdeS4hqYBecezifIcy0zVWf7PokPzdk3I9YMl8pkeZK98TQdH6Bfkwc8jTAasSzn2yPKsqSVKKbKb+0nlbYBqdvIIId7UNwLZJ8zbqW3wvSfHknHo9FPNSA8TpjH5TkLWKdiC5DSy8dp/PTYkc0LRClAzoGYoyAcg9AhMI+AqxC8BeDpKMlQKFwcttKSf+E/hM6Dtj1AUyjAYCUGI/QKvlPsZ+GBSAhe2giLP4VdURjsBd8P4NqLOtUwhsl6Uhkri6xFcIfSKSA1lVQUM3FxF9DunnNnHTn5e6gZKjbDgo3weei4Geiv9uwAuHO4LS3rifEkwoLOdgM6BGTNWncxFGEFJqXngmtpOKuObff7PoJNwf/L/vRAftsPfvUDGymrdjWDKhRjeJJNHU39HQPS1uM2FqLMydam1jcpOuZE4C9b4dGP4YOG0+EUe2HxCGHcIMBt4xBDb8aJsZSoOaMjK+oM0Hdxo/eW9QZ5p+7YlfxCYVizBRZVCu/Xq5PRVe+09c+EBZfATwaAy37yoSnuIspN8pR10tKmdAzobmZjGDNazqi6cvwdtt0cgY1VwkPrFGtPOTASgX7pinmDYexQIYHMrBFlLpTFzIsbkJpKNinuVxH+FmlnSzRZZDGFCgr7w7A7JITU8RKQLDcUehTneSHqVnxWbbDoQ+G1Q6e7Tu90mDVQcdtQBVkJGLhSujrkHZpj4+WptrdG2m1VTedGDLdeqVsnBI6KEvz18ME+OFBr8NFh4c/1wsEwZLuhlxcuyVBc3l1hZije3u7mjUOnrzMHZcDDg2KMGmhCZgJwTgxIsY1YdLo8wRttjbF9QPcZi8GYpMtXHIUTFTbUuvhwm8Hzuw12arNpR/TUneOCI2dUAfVPV8weYDJqYAwybQTkjgagOHLsxPZ5WRSdaRuQmq63Sl0rMORakONnVU5IFDbUpFD+icF/1wlBM/4vf1G64t6+McYNjkBWknD0mBQRlKxmV3icLCd45jDb1FDdw1DcKbpCYpgTXKw2FHxe6+bRylTW7BeiCYytOMXkrj5RJg+NQZajxWWVmOGJssjaiTxN2gY0M2UMSsoR0edXzshR4fHKVP51p4ejCY6tNMXk3v4hbh4agZS2j9ISUlaprxB1vywI621aG4AeSLsL1AyQngl1eOZLpuIvW70s+jyVysb43epEc25RTOgRZvYlIbL0kaNjovZiqnIpb9aVIDYAzcxYhKhfIuij3OSlUXjor5n8fpcHUyXgW6doMDBNMW1gkL8bFAKdCDkj9SDPS1lA53w2AD2U/gLILSDJnoJanR2s9eCrTOOtI8nHe21Ft5WGmPO9AHgdcjNRTZjqZSlrut0eoFmZ/w7cBOJIjeFHX3kp35zOpiZnBnRLUZj5lwQgJ8Fg1srqlK4gqZD5jbfYBJStk6afWHUWDsjqbWk8sSWTr5odaY4J3SI8MrQRCuxUxtgagM5C35b5DaPsAXo49w1QjgFau0MDymJryCFAhRF8Q/xQ6CQgeVvm1dsENCfvFZT6GYgjpxbbqtN47PMs1gec2Yy8uUeYOUP9kOUUIBVBZKXMrRtvz4Lm5L4Ixs3AsY3M5CV0yEPZZzn88UibhalxdWCIML5XEw8MqQd33OeA7fWl9yVflbn1+gjdxizmK3wC1OSW04u4BtDmw1Eo/7SA5dUZxJKc5oekxfj1hY1cXppIoWy7Q2kAWSq+Q3fbBTQdUfp4p0fydI4vMz6tzubZHdl8HEh8qtcR7MZuQe4bUE9KrqOFZftQ8rj4Di2yB+iR/JtRxm8Q+jgCSF/Nafaw5Ms8XtuTSSCBRapOCQd6I/yqtJ7hvf1gJJdwnjYuxdeI+YDMPvKqPUC+vCEYbr1Y/a5TgLQVNTek8MS2At46rF3NfssaToFH8YteDYzucxiXy7HYc0KJSszoJPHV6bI+OzEIL67uf2o5f3dm6tHdKiFU52XOtu5s9KcQNjuvSdFu1c1jcn23ABP7H8Tj0clhHHQ7/w4x69w+tv9G8bWuyG9/w6ysx2OY6EDtbN2PgqA/leXVubxfn8HhsJtG8/TtD62U11BkGSYl3giTe/jpW1xHisc6iHJajmCwVB7cd19bDXcAqGg0Si1E6Oe0RtoAYhpKg5cN+3P4U72X/VG9kD2uTophcpm3iZ8XhkjvdhR3WszBdekZo1FsR2SGPFj7x/gA+YoK8ZqvokTXADn/3Vq00VA0LBVKgaD7+BFpegjDE8NtFSQ46k5nBhiFqPcIGTeLr1bfCmolHR/7/KaHD1zTEen6atUzOXTZJzmFgVIBJLZQZu57pD0v6RhQWe/vY8ReBqULNZ1ZSDnurwk3aCKyC5eMk+nV+u5rm9IxIB8ppJUsPVbVfpMDFfIJj6SLXgyiqCBYPVl87V+Y6bx4YWHRCHC/AFaw/v9iRTqR2g7R25lRuz7h4gUrddFWlFXiQxlTUCq7K+bZLrKQdprVqYI0IOYz+Kt9HVmPbsBWKFSP97kQzCWgC6jEucTx7JJp6c06bl4Pxi/l3q+3daaCPUC6LjqjeCxG6mJEFXXltN+Zwkn9LiiU1GI230Ngz2t26qZtATruat0yyc68Hwx9JPTN1golTEkawXyShsZy8R3UN4U6FfuAtDsuKi3BkPkYMs66IfhtEn2D0eRlTHMO06uq7RaU2wbUErANskoH4/bMRZk//fbEIxVDjDcJB2cR2L3Fjmud+PZxAToJKae/TiBnWfc0zpGq1w6MWQflVZiu+Rzd+lE8cGzPYmd2bk39uf0ux62mEDNuQlpuK59rLqeI4jIriMoz1G//sLMpvS3147agE41YN5jzLxiMuKaDGgPGORaTzGaQFajYIo7s+DTRG4gJAzrpbvkXlOJyjcE0piDW5bpvXhTVGOYzxGIrOLKjKl63OnUASQE6CamwOA8yrkJc9yHGcFDfUDIpMZS5ARV7DALvc2hPXTJwEo5BbZmIWnx+Gt6soeC6AUPp65mloNxOlmC0bZrKBNHXMKswZQXEXifk3yT31LSqFkvEtJO2oFM7tW4iduuWjnTvg+ImDDUOuKBlptMLXaf607tHesGpZ6gdmLIcoQK1/2sOHmxK1mocdbE2rUmDyr8gE5cUI54fgvEzDONSRGWBGKCMuJcrepmA6G1+89iVLD+Yn2CqlajIWrxGDbu/DDgJJuE8KB4ztSyqZ5GXYH4WqeoCDONKMK4A85Ljxenism5NiN6M1uBOWpg6DkL0Zq+Goi0lAMZGMP8L01yHu2kHZrOfvbWhrgBzVgC1cj8Guslwe8iOZKPcvUF6o+iDS3VHpICY6ma945KDKHWYmOxH+BrUTiS6kwZPA4FoBLZEuxLKqXr/LwppQpQhzFBiAAAAAElFTkSuQmCC"
+                />
+                <h6>High-performance</h6>
+                <p>
+                  Innovative two-layer sharding to help achieve throughputs
+                  exceeding 10,000 TPS.
+                </p>
+              </div>
+              <div>
+                <img
+                  src="data:image/png;base64,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"
+                />
+                <h6>Permissionless</h6>
+                <p>
+                  Fully permissionless for everyone and anyone. No limit on the
+                  number of nodes.
+                </p>
+              </div>
+              <div>
+                <img
+                  src="data:image/png;base64,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"
+                />
+                <h6>Highly Secure</h6>
+                <p>
+                  hpBFT with multiple verification and audit, inspired by PoS*
+                  and unpredicted randomness.(PoS* is the proof of
+                  Comprehensive-Staking)
+                </p>
+              </div>
+              <div>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAAAXNSR0IArs4c6QAAFJxJREFUeF7tXAt0FEW6/qu655mHCckkhIQEcGECErwuAiawKyjiBYzgRUQ9msXlteJBXBFxhXW53j0ish7xiutFr3cPIFwEUbzhIQ8FEaIiGuUd8k4gJECAyWsmmemua3VP9VT39ATDQ2CPzcnpZKa66q+vvv9Z1SD45WoXAfQLPu0j8AtAF2DILwD9XABNLN9hT3R0ihWw1J+I8j2CjPoThFKBkHhFBoTOIUJOSJh8iwJ4gyQL37YmOz1voJ6t17KaXzKD5pMdoud0bDcLlkYAER5EALcgROwAgAmFBdQhCBD6GwEAGQj4AFChDIFVsgRboo+0VM8fNixwLQJ1SQCNJ4esGWea78aAHieAhgIQR6hDRNFRyRN55s2EkM8Qxn8vrS39bO1ND7RdayBdNECUOY1noiYQAnMwkCzE0NBmyEOlwmQ2GH2MAPrOLwdejnW1fDQfXVtMujiAyHz8bP2osX5JXogQ+pUZS3AYYCFuqFDpAZQBjoAMTy16a8N2mD9fvlaYdFEAPVH7xSALtvwXANyMtJmaM4SB1x5gQUUkiMBXogxTX+o84OB1C9D0UzuircT2NgF0PwBY2EQUpDWbo/4SCTL6rRlgCIEPIbyi5eypGW/0HHVNeLcOM2hKzc5H7aL1JUQgjV9lMzBCRrp9wGg/DDAEUAYgzFzk6r/hWmBRhwB6+PwX8XE+eBMBfgABCGYsiWR6KIDqdwwso3dj4QD4CcjLWgJnZr7dJbflaoPUIYAmnfr8txYiLBYI3GIUnDHI2GG4d2OuX4FM143GOIR2CyKasSh+4PfXFUDTTn7xGAJYgACS1eDY6MpDk9fZJm6W7QGm8QuhMsB49uLEgR9eVwBNrd35PAI8nxlnRENlbgb+Zi9Yopw64NikjQyjbUWnHTDGJhggD5LJvNdTcpZcNwCNJ2uETnUp8wHIPE1omjgAQMDrg815z0HN7u/AdXMm5K7+G9jibggDSmlMCHz+7N/g0IqPISY1GXJXvQqd3N21LhVjjUBCMpn/eufBf71uAAJC0ORTu/4CBF5ASlqlXhgQFK3ZDDtnLtDm0n3Ub2HEu39V6MUzjLLo0LL1sGvOq1rbXuNGwF1vvmC0R3SEF5ck5fw7IMrTq3d1yEhPPrlzNiLwIkFAk1HlopMu3/g5bJ/8gm4WfSePg0Hz/gCi3RYkDoHiddtg16yFILX6tbY35Y2B2xc+o/UWRLQVI/TCkuTBr1w9aNj8OiDBxJqdj2IkvwwEdeEZRCQZ1o+aBvUHinW92TvdAMkDs0CwWqD+UAl4Sqt134sOGzywcznEpqdoYCusQ3AcEzRnSechqzog3hVp2iEGPVjzyW9sxLIYI/Rrxh4mFZ18/ujp0NbQ9JMFHfbmPKAqpl1Bo48A9gLCM9/qPOSrn9zZFWrYIYDGn9zkshHrmwKBcYDC/c+Z/cXw6cS50FJ7pl1xsdUCgxf8ETIfHh2W4SNAsgRkbZvkf2J52vD6KzTvn9xthwCidYlHarY9IQCmBsdlHIXGOK3nGuD7xSugZPUn4G9s1jVBogBd77wNbp0zCeIzVc+lRti6eKruR5Wd/07qsKWAlALbVb06BhAAjK/+pJOI8HIBoX9V040fIyOTSo/U5oezB0ugqboW5IAEzqRO4OrnBltcTNiEmRAIIIAR/rjZavv9yoTbGq4qMiG30XExHq3dcoccQMswQJpWNuS6wWAW/Cmht24w2ipUkkUEAalqxfDgys7DrrrtYYJ2mEH0waFkh5haE8gDQv4DADSPpuaihvyKqZFe2cJZhFCVJLc+40tt/HAtekDq+LJdmScuCiAqylSyz9Jcc3YqQTAdEZJJCNLRhlMbTXJma/RJKpF/rC0dtGFxMT4R/d7bt94aCpKuzJw71OtFA0RHGVm8yRYfZRkNhEwFIDmEQIwaPQf3Lwyi0MF0AyJoIAh9IcnwluQ5t+2fqmjP5j5131KLJ62bG0mEApWLAPcHCEXaqtbpAUNAWgDw1xjIxjbctqmuKKp45z/jtg9PkBG1W6JukOQ0AQl9kCQNkxHqiwC6A0LBtIT4MOAiEePvfW3SHquDHPEE/DX510BRrD2duyQVM+uYZv2tRTZnVGysjQT8VskpKGMILRJBYmubmGL1roARXkDomtm5+FkB6pAFvA4amzIod1++E2LAiSyyEEDiZWfZhXCJMmnQ6rQRct4rQSO05N/689WqQ5MnBN1Xt9XV6vf9WgxAPyTiVJCJkyi1H33gZ1oENEwqQqgYcSOaXwVRHzGwmJYQTFoEGZ0AQdwvYum7FckjTl/pelFwK4Hge05syJJlaSoiSgqRDgBiKJo0RsAmwWC7O6mKL1O6CyvqRwgu1bbhNW+EcAAIVBFMNoGAlr6f/OVhQFduJ1aRILd8S2YAvK8gBLT2oFa4gpfpBp9hqsb9CerWI+ll+JQNVccIQKsxlK5XHwK00R5jmbMs7s7SC6ntxX6PsqvXOOJkcTkQdC8QsLK5R5pI5F2JkAhm6avxuXAmmY0YBMUEbeUjglqxgD9oaJEmbb5CO7Ho7vIPxwCCZUDghkiKoOZYZuqhL1WEVNK4XnqOKWwwydn4pyLts6kaGUSMECAIncdIfmRt2j0bL5Yl7T2H7qpY9w4Q+B0K7rObbiEbN/jCc1JmSCNOnCcBZZhejcNFDNtUNLFHKttRm4DQf69JG/nEFQHo7vIPC2Qi3xaWJimrFM5t7VNGK66VObh6sc1U1FhPUhkW7gdNDTyAjAn++oOMUTlXBKDh5WuPEAKZ4St24YkxT2NqT8KwNZ4KUvtXcQ73ivrzQ2YqGpSP1rExlKxLG93rUgBCEbaX0B1la44CgPtCqqWbQrteKoI7jwCCkadGhtGaq9ni6UMAVPFR+uge7Z/2M4XPtKTLg4WGlb2vAGRmIHV2wmA3wlgT0T2HeydFpUyMPmOk4qA0qxa5CMc5hYr16bk3cvJGijJYEzNgdJ8xkNDQstVHCQkCFJyksXezmrNK+shyGOMn1jJcWVicrvamSan6cd2yMzYZ+8YAFevT76VHAcMIGVLEsK74AfiBQiIgRNDtpauPEiDuMMXgjDC3UkEJzIx3ZMCU2rNOLdXnVTMcDrMqIRsjKG/wzxDQwWeRUgGnDKI2iP/abPXY5Omd/52BZfwM0ODSVUcBkAIQ7zfCFcPct6vPRQIsZIiZiWZLTFmgQcNRh35Gz1TzM2Bf83cGeFDuyvUZY6iZYN3zAhmQVmRi3ZvddWChwSUUIGqkDZe24mHcCq1vmB1hbUPPqBKr//hdDDpBxiDaoUUmIAmYyETWuKICpQKmn7F6Wo1BjAEoQL3pWp05cwbbbDZbTEwMPePIP0bKy8udhBBfjx492KF1WpNqDyyCckpW6ox0REXR7JMpt0yTUHWVQ8AoYCnAsM/VvsbYMiAvuR/4iEQW1n6FfvCfVVlE1BP6dAZYG5apZ/COEAiAKz/KyO2bn5/fa/To0f/AGGcRQjY1Nzf/Pjo62t/U1JQSHR39PgD08fl8Ww4cODBtwIAB5w3gMLB0oKFBJe8dRUEV4zU/ZHfMVFlVN2Mox6cHPFsUQChYwWcYQAycKSnKVr9ylTSehqfqd6vLygFkxiCqprQvEVBV7o6zg3Jzc5clJCRom/1+v3+ixWLZJMvyPIzxk2yMxsbG3cePH3+gd+/e9AykERjd32hQyQpTNx8pF4rkuVj8wkBTQaD2CSvqQP/WgAqq3QhrKsxIGaBLT36orYC5vkKFN0pNluZbClyc3wwCo/YJICBcNacu+bmBAweu5NWqubn5kaioqO1er3e2w+GYxRuRurq6nQAwITk5mb7+oL5DEv5D0ICS5Uch6OYjHfZuz6XzBjpkIRlbQqyhfYhBJtG3XIYgF8zOGAyYSymafV6YfXgTVHbCyhsv9IcCpBrnEGPpYggq9CozW9rq/5EyvD4uLk6LpltaWko8Hs/wlJQU/5YtW9KGDh260mazKW8FsOvkyZObMcYTk5OTqU1iANFNSw0sHUBGO80CujD7bQg3GDC0ncDZF545gqJiWHkFqH8gFv7cYxiIgnKSWLl8ba0w7/AnUBQbAGqmVZ6HezPm/eg4yu8ygcH+OHl2r2G8xpOjR49Oy8zM3EwZ5fV64dixYxmZmZn/a7PZdOe7y8rK1re2tk7v3bs3ZRIdlgGk3NsFiAeGeSMdWJq/URWAsYn+TidAQaHrrN5VNbtJjoUX028Hm0UtPdHLHwjAi4e3QmG0V7HGlDlEUS1KIE7BcChYYPbH6vXDks53QOe4hBDYPt9n1dXVU3r27El3aTXzVVFR0SMlJWWNzWbTnUwpKipaef78+ecGDRrk5UDqGEBGFtG/+dedQi5XBUpQAjh1lRWQAMGNDRgWZo4Ep007wQcykWFR6S7Yg88CUZijqpas1noUQ62MFfRkykIwGyQDjPW54LE+QzTxCCH+/fv3/9vNN9+830xmj8fT0+l0fmCxWOL47/fu3bu8vLz8xQkTJniCLKIAST+ZQWaDMcHpXTPKnAGlIFH2UHDSWyywqMddEOsI7VlQdiypKIBtci0QAYFMQgAx5ij2kyCasSssVVQ42OcNDX5Y6r5XB3hzc/OyqKiov4TlKaEJoJqamn9JTk5eIQgCfxaH7N69+20AeGnIkCH0YNPlA4hnj2p3KGMA6O4EXe0uTRhe7TUSOtn0GzrvVn0DH7dVAhGx6rUYQEHPRQ0CO4vNHAgFXQUK4HHUE0Z2y9KmLkmS59tvvx05cODAE8EP+RyLqZpyP3369G2JiYn/gxBysg5kWSbbt29/PSMjY5Hb7fYpDBpYsuw+IiOl3NqhC1ODLABGMhUZiUgRHVkBYysSsVWgdwEnVDcN/PMtox922WNCFhkAyk6fXLe44fsvZbuV+CEgy4TIbUBkP5HlgOQnEkayJEvKGCJVZgGDBRAWZNovwt3Ow5Dns+6+H3H1kZqamkVdunRhh8/Zzi1fGOBTEcqk4cH22kaFJEnyhg0bXsnOzl6clJTUFiEKvDBUhFCLETIPwVROCUuCW0bCa6+99puJEye+Gx8fH7KgAODxeNYghObGxsYy96rQmZ5J57wIC9jYpFjfuKCgwNmnT5/8uLg4jT5NTU01Xq/3dpfLRVMMY/rAZFXjVzXtVO4NDQ0jY2NjF/PbXG1tbfI777zzn+PGjXvpUgHiV4QCQwem+2nC6tWr4+68885PXS4XLWRpl8fj2Wy325+y2Wy8O2Xg8ADx6kH7pmMJzc3N4uHDhycPGDCAHt7Srurq6ie6du1KX6EySxk0O88tpOpYAbDX673P4XC8zOfrPp/Pv2DBgscvF0BsMMYesaCgwJ2Tk1NgAKdx69atuePHj68xBGYUGB4c/oQZW3GFQUuXLk3Py8v7P4fDoR6uBoBz584VxsfHjw0yhz7LImPGJONCssVUgD9y5Ig9ISHhtaSkpOG8vDt27Pj75QaIskdhUGlpaVT37t13YYy78YMWFxd/s2/fvqcfeuihk1zMwQPEJqjmFyGVEA4ePGi3WCxz3W73NM6wyk1NTaNjY2MPcf1FAoipKQVG+Tlw4IDTarU+2qtXr1mI2ykghAS+/PLL+y8nQGxQBpJYV1fX1+VyrcIYJ/EgVVVV7SksLJw1ZsyYUwbbw2wRW3neZghr1669aezYsfkWi0XzPGfPnv3I6XT+0W63s2f5nIpX0zBwiouLHbIsP2YCjnTixInn09LSll9OgJj9URgUZJJ46tSpm1wu1wqEkPKOGbuqq6v37NixY3ZeXh51yUy9ePawpor6FhYWOpKSkt5ITU3NZV9IktR85MiREX379qXvOOhSBM4W8fZHW0SPx2OprKyc0a9fP5rla2kKIUSqrq6e63K5VjocjsDlBkgDhgepvr7eHR8f/x7GWAdSRUXF159++umTkyZNojbJyB42McUG7dmzJyc7O3st5g74nzlzZrEoiovj4uKM9ouv6fBqShcP+3w+y7Fjx57Oysp6kg8T5B9Pb9TU1DyfmJj4vt1up336LxdAiofhvRhjELNJHo/nV3a7fbXNZkvkmVRaWvrdnj17Jufl5dVxhps1USa3d+9eR2pq6sbU1FRaNVSuQCBw/JtvvhmVnZ19zpg/mbCHySd4vV7x0KFDf+rfv/90Izi1tbV/6tSp0wdBcBS7eDkAovJqLpOPgziQFGo3NTX1sNlsqy0Wiy5ZLC0tLdy1a9fkCRMm1DqdTr4crfRdUFDwSE5OzkIe2MrKytlJSUnvOxwOM9UyxlAKQPv377dbrdan3G730zw41CBXVlbOTUlJ+cBmszE2XhaAdGoQBErzEIw93B2fP3++e3R09CpRFDvzEy4rK/t+48aN02bMmHGc/zw/Pz8+Ozt7Z2Jiosa81tbW7yoqKu53u920RGEEiA8StcXbunVrVHp6+kwjOD9WGwPV1dXPZWRkrDMwUYnNLpVBPEC8mvEegxltpoK4tra2R1JS0gqMcSoPRkVFReG2bdumTZkyhdok5Tpw4MCfsrKy+IMJclFR0YNut5vGWGZFrjAGbtiwIapnz56UObSqqM2ZZv4nTpx4Ji0t7WMuhqJ9ak7jcgHEVooFdXwgxjOKfY4qKytvTE9PX4YQ6sqDVFdXV5CcnPxgUGDU2tr6g81mU/8PIgBoaGjIj42N/QMXDOoqgIYsXlm0+vr6xxMSEuj7r9p8JUmizJnVrVu39YaSK3MWajbPC9fR3w35GO8tjDaJB4nFNqi8vLxH165dV4qiqKvyAcDvAOAzOjlCSDFCSPkvMCRJ8hUXF9+RmZlZblhxxiTjdhqViZY06Ak0LSGVZdlfVFT0bLdu3dY5HA5jPZoHiO1BdRQatT0HkFHVjADxKse+Uxanqqqqe5cuXVYbQJoKALRcSoWncQp9qTXQ2Ng4NyYmZoXJihuTUyYPHYuyr4Qlo7Ist1VUVMxMSUnJD4JjBpBWer0kBhlAYn0ZmaTZHi4U0FhEaV9fX981ISGBlino/s8nADA9aAdYJEyrAbR8SveyTHcfuAyegUPvLMml/dGXAM82NDTMEkXxc85bmu1oaGr7/1sugI0iBS3mAAAAAElFTkSuQmCC"
+                />
+                <h6>User and Dev Friendly</h6>
+                <p>
+                  A friendly token economic model for both users and developers.
+                  Easily implementable, turnkey solution for developers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="innovations-section2">
+          <h1>Technology Features</h1>
+          <p style="color: rgba(148, 146, 134, 1)" class="poweredbya">
+            Powered by an innovative three-layered ledger architecture
+            consisting of a main chain, service chains, and off-chain ledgers,
+            TOP Chain is capable of handling real-world business of any size and
+            volume.
+          </p>
+          <div class="innovations-section2-content">
+            <div class="innovations-section2-cell">
+              <img
+                src="data:image/png;base64,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"
+              />
+              <h6>Comprehensive Multi-Layer<br />Scale Technology</h6>
+              <ul>
+                <li>Layer 0: P2P Overlay Network</li>
+                <li>
+                  Layer 1: State Sharding, Compute Sharding, Network Sharding
+                </li>
+                <li>Layer 2: State Channel, Multiple-Service Chain</li>
+              </ul>
+            </div>
+            <div class="innovations-section2-cell">
+              <img
+                src="data:image/png;base64,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"
+              />
+              <h6>Comprehensive Multi-Layer<br />Sharding Technology</h6>
+              <ul>
+                <li>Two-Layer: State Sharding</li>
+                <li>Three-Layer: Compute Sharding</li>
+                <li>Three-Layer: Network Sharding</li>
+              </ul>
+            </div>
+            <div class="innovations-section2-cell">
+              <img
+                src="data:image/png;base64,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"
+              />
+              <h6>Two-Layer Lattice State</h6>
+              <ul>
+                <li>Unit-Lattice</li>
+                <li>Block-Lattice</li>
+              </ul>
+            </div>
+            <div class="innovations-section2-cell">
+              <img
+                src="data:image/png;base64,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"
+              />
+              <h6>Completely Parallel<br />Consensus Mechanism</h6>
+              <ul>
+                <li>Multi-Cores of CPU: Parallel Computing</li>
+                <li>Multi-Roles of Node: Parallel Working</li>
+                <li>Multi-Groups of Shard: Parallel Consensus (hpBFT)</li>
+                <li>Multi-Shards of Chain: Parallel Transactions</li>
+              </ul>
+            </div>
+            <div class="innovations-section2-cell">
+              <img
+                src="data:image/png;base64,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"
+              />
+              <h6>Three-Layer Network</h6>
+              <ul>
+                <li>Edge Network</li>
+                <li>Routing Network</li>
+                <li>Core Network</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <section class="footer-bottom">
+          <div
+            class="ml-form-embed"
+            data-account="1319000:x0x0a0p6w2"
+            data-form="1153002:f1d6p9"
+          ></div>
+          <div class="topNetWork">
+            <img
+              style="width: 130px; height: 24px"
+              src="/static/images/newlogo.png"
+            />
+          </div>
+          <div class="footer-bottom__links">
+            <a
+              href="https://t.me/TopAI_Eth"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg width="16.457" height="13.943">
+                <path
+                  data-name="telegram (2)"
+                  d="M6.191 13.1l.256-3.9 7.012-6.379c.31-.286-.064-.424-.475-.175L4.328 8.168l-3.744-1.2c-.8-.23-.813-.793.183-1.2L15.349.089c.667-.3 1.306.166 1.05 1.2L13.92 13.1c-.173.839-.676 1.042-1.37.655l-3.78-2.821-1.817 1.779a.964.964 0 01-.762.387z"
+                  fill="#8b8b8b"
+                ></path></svg></a
+            ><a
+              href="https://twitter.com/TopAI_Eth"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg width="15.135" height="12.525">
+                <defs>
+                  <clipPath id="twitter_svg__a">
+                    <path
+                      data-name="\u8DEF\u5F84 25090"
+                      d="M875.481-126.852a3.166 3.166 0 00-2.133 3.184l.033.542-.547-.066a8.887 8.887 0 01-5.205-2.565l-.722-.719-.186.531a3.2 3.2 0 00.678 3.273c.437.464.339.531-.415.254a1.3 1.3 0 00-.514-.122 3.974 3.974 0 00.393 1.482 3.533 3.533 0 001.5 1.415l.536.254-.634.011c-.612 0-.634.011-.568.244a3.308 3.308 0 002.045 1.814l.678.232-.59.354a6.134 6.134 0 01-2.931.818 3.214 3.214 0 00-.9.089 8.355 8.355 0 002.111.973 9.227 9.227 0 007.174-.818 9.614 9.614 0 003.642-4.291 11.4 11.4 0 00.744-3.316c0-.509.033-.575.645-1.183a7.206 7.206 0 00.766-.851c.11-.21.1-.21-.459-.022-.929.332-1.061.288-.6-.21a3.224 3.224 0 00.744-1.183c0-.033-.164.022-.35.122a6.045 6.045 0 01-.962.376l-.59.188-.536-.365a4.442 4.442 0 00-.929-.486 3.736 3.736 0 00-1.918.041z"
+                      fill="#8b8b8b"
+                      clip-rule="evenodd"
+                    ></path>
+                  </clipPath>
+                  <clipPath id="twitter_svg__b">
+                    <path
+                      data-name="\u8DEF\u5F84 25089"
+                      d="M857-107.729h30.271V-138H857z"
+                      transform="translate(-857 138)"
+                      fill="#8b8b8b"
+                    ></path>
+                  </clipPath>
+                </defs>
+                <g
+                  data-name="\u7EC4 7290"
+                  transform="translate(-866 127)"
+                  clip-path="url(#twitter_svg__a)"
+                >
+                  <g
+                    data-name="\u7EC4 7289"
+                    transform="translate(858.432 -136.249)"
+                    clip-path="url(#twitter_svg__b)"
+                  >
+                    <path
+                      data-name="\u8DEF\u5F84 25088"
+                      d="M3.363 5.045h23.544v20.934H3.363z"
+                      fill="#8b8b8b"
+                    ></path>
+                  </g>
+                </g></svg></a
+            >
+          </div>
+          <div class="contactTopnetwork">Contact Top-AI Team</div>
+          <div class="foundation">© Top-AI Foundation 2024</div>
+        </section>
+        <section class="footer-top">
+          <ul>
+            <h6>TOP Tokens</h6>
+            <li>
+              <a
+                href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x00000000000000000000000000000000000000&chain=base"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Uniswap</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dexscreener.com/ethereum/0x0123456789"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Dexscreener</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Dextools</a>
+            </li>
+          </ul>
+          <ul>
+            <h6>Contacts</h6>
+            <li>
+              <a
+                href="https://sorojins-organization.gitbook.io/top-ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Document</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://t.me/TopAI_Eth"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Telegram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://x.com/TopAI_Eth"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </section>
+      </footer>
+      <div id="toast"><div></div></div>
+    </div>
+    <div id="toast"></div>
+    <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">
+      [10]
+    </script>
+    <script
+      async
+      data-chunk="main"
+      src="/js/vendors.e0c1084e192da768bc67.js"
+    ></script>
+    <script
+      async
+      data-chunk="main"
+      src="/js/main.429184c57864c182810f.js"
+    ></script>
+    <script
+      async
+      data-chunk="views-Innovations"
+      src="/js/views-Innovations.d35526015155b6789ce7.js"
+    ></script>
+  </body>
+</html>

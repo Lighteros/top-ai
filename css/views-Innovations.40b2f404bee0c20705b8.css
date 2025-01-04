@@ -1,0 +1,566 @@
+@media screen and (max-width: 768px) {
+  button {
+    all: unset;
+    /* 重置所有默认样式 */
+    display: block;
+    /* 像 <div> 一样是块级元素 */
+    height: auto;
+    /* 可根据需要调整高度 */
+    padding: 0;
+    /* 移除默认的内边距 */
+    margin: 0;
+    /* 移除默认的外边距 */
+    border: none;
+    /* 移除边框 */
+    background: none;
+    /* 移除背景 */
+    font: inherit;
+    /* 继承字体样式 */
+    color: inherit;
+    /* 继承文字颜色 */
+    text-align: inherit;
+    /* 继承文本对齐方式 */
+    cursor: pointer;
+  }
+  .poweredbya {
+    text-align: center;
+  }
+  .innovationsContent1 {
+    background-image: url(/static/images/innovations/phonebg2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px 60px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 30px 20px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+  }
+  .innovationsContent1title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 163px;
+    text-align: center;
+  }
+  .innovationsDescription {
+    font-weight: normal;
+    font-size: 14px;
+    color: #949286;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .innovationsBtn1 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    padding: 9px 5px;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#fff300),
+      to(#f7b501)
+    );
+    background: linear-gradient(90deg, #fff300 0%, #f7b501 100%);
+    border-radius: 8px;
+    margin-right: 16px;
+    min-width: 130px;
+  }
+  .innovationsBtn2 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    padding: 9px 5px;
+    background: black;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    color: #ffffff;
+    min-width: 130px;
+  }
+  .innovationsBtns {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  button {
+    all: unset;
+    /* 重置所有默认样式 */
+    display: block;
+    /* 像 <div> 一样是块级元素 */
+    height: auto;
+    /* 可根据需要调整高度 */
+    padding: 0;
+    /* 移除默认的内边距 */
+    margin: 0;
+    /* 移除默认的外边距 */
+    border: none;
+    /* 移除边框 */
+    background: none;
+    /* 移除背景 */
+    font: inherit;
+    /* 继承字体样式 */
+    color: inherit;
+    /* 继承文字颜色 */
+    text-align: inherit;
+    /* 继承文本对齐方式 */
+    cursor: pointer;
+  }
+  .outinnovations {
+    padding-top: 100px;
+  }
+  .innovationsContent1 {
+    background-image: url(/static/images/innovations/innovationsBack.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 130px 0px;
+    width: 1020px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+  }
+  .innovationsContent1title {
+    font-weight: bold;
+    font-size: 38px;
+    color: #ffffff;
+    line-height: 45px;
+    text-align: left;
+    padding-bottom: 60px;
+    padding-top: 100px;
+  }
+  .innovationsDescription {
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 84px;
+    width: 50%;
+  }
+  .innovationsBtn1 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    padding: 22px 34px;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#fff300),
+      to(#f7b501)
+    );
+    background: linear-gradient(90deg, #fff300 0%, #f7b501 100%);
+    border-radius: 10px;
+  }
+  .innovationsBtn2 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    padding: 22px 34px;
+    background: black;
+    border: 2px solid #979797;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+  .innovationsBtns {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .innovationsBtns > * {
+    margin-right: 50px;
+  }
+}
+.innovations-hero {
+  padding: 220px 0 0 0;
+  background-color: #0d0c0c;
+}
+.innovations-hero > .innovations-hero-container {
+  width: 1020px;
+  margin: 0 auto;
+}
+.innovations-hero > .innovations-hero-container > h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+  color: #fff;
+}
+.innovations-hero > .innovations-hero-container > p {
+  width: 800px;
+  margin: 32px auto 0 auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+}
+.innovations-hero > .innovations-hero-container .innovations-hero-links {
+  margin-top: 50px;
+  text-align: center;
+}
+.innovations-hero > .innovations-hero-container .innovations-hero-links > a {
+  display: inline-block;
+  width: 196px;
+  height: 45px;
+  border-radius: 1px;
+  margin: 0 20px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+}
+.innovations-hero
+  > .innovations-hero-container
+  .innovations-hero-links
+  > a:nth-of-type(1) {
+  color: #000;
+  background-color: #fff;
+}
+.innovations-hero
+  > .innovations-hero-container
+  .innovations-hero-links
+  > a:nth-of-type(2) {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+@media screen and (max-width: 768px) {
+  .innovations-hero {
+    padding: 75px 0 0 0;
+  }
+  .innovations-hero > .innovations-hero-container {
+    width: 100%;
+    padding: 30px;
+  }
+  .innovations-hero > .innovations-hero-container > h1 {
+    margin: 0;
+    text-align: left;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .innovations-hero > .innovations-hero-container > p {
+    width: 100%;
+    margin: 20px 0 0 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .innovations-hero > .innovations-hero-container .innovations-hero-links {
+    margin-top: 40px;
+    text-align: left;
+  }
+  .innovations-hero > .innovations-hero-container .innovations-hero-links > a {
+    display: block;
+    margin: 14px 0;
+  }
+}
+.innovations-section1 {
+  position: relative;
+  background: url(/images/1d202e79754d3f7d001e171d12a67281.bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.innovations-section1 > div {
+  width: 1020px;
+  height: 775px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.innovations-section1 > div > h1 {
+  margin: 0 0 90px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+  color: #000;
+}
+.innovations-section1 .innovations-section1-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left !important;
+}
+.innovations-section1 .innovations-section1-content img {
+  width: 72px;
+  height: 72px;
+}
+.innovations-section1 .innovations-section1-content > div {
+  width: 245px;
+  height: 390px;
+  padding: 34px 23px 0 28px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 2px 20px 0px rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+  background: rgba(255, 255, 255, 0.06);
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+}
+.innovations-section1 .innovations-section1-content > div h6 {
+  margin: 30px 0 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  color: #ffffff;
+}
+.innovations-section1 .innovations-section1-content > div p {
+  margin: 16px 0 0 0;
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #949286;
+}
+@media screen and (max-width: 768px) {
+  .innovations-section1 {
+    padding-bottom: 20px;
+    background: #f9f9f9;
+  }
+  .innovations-section1 > div {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 35px;
+  }
+  .innovations-section1 > div > h1 {
+    margin: 0 0 28px 0;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .innovations-section1 .innovations-section1-content {
+    width: 100%;
+    padding: 20px 18px;
+    overflow: scroll;
+  }
+  .innovations-section1 .innovations-section1-content > div {
+    padding: 26px 10px 20px 16px;
+  }
+  .innovations-section1 .innovations-section1-content img {
+    width: 40px;
+    height: 40px;
+  }
+  .innovations-section1 .innovations-section1-content::after {
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: block;
+    width: 1px;
+    content: "";
+  }
+  .innovations-section1 .innovations-section1-content > div {
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 220px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .innovations-section1 .innovations-section1-content > div h6 {
+    margin: 16px 0 0 0;
+    color: #ffffff;
+  }
+  .innovations-section1 .innovations-section1-content > div p {
+    margin: 10px 0 0 0;
+    color: #949286;
+  }
+}
+.innovations-section2 {
+  height: 800px;
+  padding: 10px 0 130px 0;
+  background-color: #0d0c0c;
+}
+.innovations-section2 > h1 {
+  width: 1020px;
+  margin: 0 auto 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 45px;
+  color: #fff;
+}
+.innovations-section2 > p {
+  width: 1020px;
+  margin: 32px auto 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+}
+.innovations-section2 .innovations-section2-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -moz-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  width: 1020px;
+  height: 400px;
+  margin: 62px auto 0 auto;
+}
+.innovations-section2 .innovations-section2-cell {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 502px;
+  height: 120px;
+  padding: 36px 43px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  -webkit-box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.16);
+}
+.innovations-section2 .innovations-section2-cell:nth-of-type(3n) {
+  margin-bottom: 0;
+}
+.innovations-section2 .innovations-section2-cell h6 {
+  position: absolute;
+  left: 138px;
+  margin: 0;
+  padding-left: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #ffffff;
+}
+.innovations-section2 .innovations-section2-cell h6::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  height: 78px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  content: "";
+}
+.innovations-section2 .innovations-section2-cell:hover ul {
+  opacity: 1;
+  pointer-events: auto;
+}
+.innovations-section2 .innovations-section2-cell ul {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  padding-left: 52px;
+  border-radius: 4px;
+  background: #404040;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+@media screen and (max-width: 768px) {
+  .innovations-section2 {
+    height: auto;
+    padding: 40px 20px;
+    background-color: #0d0c0c;
+  }
+  .innovations-section2 > h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .innovations-section2 > p {
+    width: 100%;
+    margin: 20px auto 0 auto;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .innovations-section2 .innovations-section2-content {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0 auto;
+  }
+  .innovations-section2 .innovations-section2-cell {
+    width: 100%;
+    padding: 32px 24px;
+    margin-bottom: 10px;
+  }
+  .innovations-section2 .innovations-section2-cell img {
+    width: 42px;
+    height: 42px;
+  }
+  .innovations-section2 .innovations-section2-cell:nth-of-type(3n) {
+    margin-bottom: 10px;
+  }
+  .innovations-section2 .innovations-section2-cell h6 {
+    position: absolute;
+    left: 100px;
+  }
+}

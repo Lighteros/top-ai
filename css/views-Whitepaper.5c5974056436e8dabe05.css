@@ -1,0 +1,221 @@
+@media screen and (min-width: 768px) {
+  .nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 1200px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 80px;
+    font-size: 16px;
+    background-color: transparent;
+    z-index: 998;
+  }
+  .nav .nav-logo {
+    width: 157px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav a {
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+  .nav .icons {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .nav .icons > a {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+  }
+  .nav .icons > a > svg {
+    width: 100%;
+    height: 100%;
+  }
+  .nav > img {
+    margin-left: 10px;
+  }
+}
+.nav {
+  position: absolute;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 80px;
+  font-size: 16px;
+  background-color: transparent;
+  z-index: 998;
+}
+.nav .nav-logo {
+  width: 157px;
+}
+.nav-right .link-uni {
+  color: #fff;
+  margin-left: 30px;
+}
+.nav-right .link-uni:hover {
+  color: #f0b90b;
+}
+.nav-right .no-padding {
+  margin-left: 0;
+}
+.nav-right > .nav-drop-down {
+  margin-left: 30px;
+  line-height: 30px;
+}
+.nav-right > .nav-drop-down a {
+  color: #fff;
+}
+.nav-lan-drop-down {
+  margin-left: 50px;
+}
+.nav-lan-drop-down .drop-down__container {
+  left: auto;
+  right: 0;
+}
+.nav-expand {
+  display: none;
+  width: 24px;
+  height: 24px;
+}
+.top-slcak {
+  position: fixed;
+  right: 26px;
+  top: 40%;
+}
+.top-slcak img {
+  width: 152px;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .nav-right {
+    display: block !important;
+  }
+  .icons > * {
+    margin: 0 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    background-color: #120e01;
+    height: 60px;
+    padding: 0 20px;
+    width: 100%;
+  }
+  .nav .nav-logo {
+    width: 120px;
+  }
+  .icons > * {
+    margin: 0 8px;
+  }
+  .nav-expand {
+    display: block;
+  }
+  .nav-right {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #0b0e10;
+  }
+  .nav-right .link-uni {
+    display: block;
+    margin-left: 0;
+    line-height: 50px;
+    padding-left: 20px;
+  }
+  .nav-right .drop-down__item * {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  .nav-right > .nav-drop-down {
+    display: block;
+    margin-left: 0;
+    line-height: 50px;
+  }
+  .nav-right > .nav-drop-down > span {
+    padding-left: 20px;
+  }
+  .nav-right > .nav-drop-down a {
+    display: block;
+  }
+  .nav-lan-drop-down {
+    display: block !important;
+    margin-left: 0;
+    line-height: 50px;
+  }
+  .nav-lan-drop-down > span {
+    padding-left: 20px;
+  }
+  .drop-down__container {
+    border-bottom: 20px solid #1e2126;
+    background-color: #0b0e10 !important;
+  }
+  .top-slcak {
+    right: 16px;
+    display: none;
+  }
+  .top-slcak img {
+    width: 80px;
+    height: auto;
+  }
+}
+.icons a:hover svg path {
+  fill: #f0b90b;
+}
+.icons a svg {
+  scale: 1.4;
+}
+.icons {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.whitepaper {
+  width: 100%;
+  padding-top: 80px;
+  background-color: #0d0c0c;
+}
+.whitepaper .react-pdf__Page__canvas {
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .whitepaper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .whitepaper .react-pdf__Page__canvas {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+}

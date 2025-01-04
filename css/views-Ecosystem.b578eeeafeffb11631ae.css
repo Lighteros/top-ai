@@ -1,0 +1,1392 @@
+.ecosystem-hero {
+  background-color: #070707;
+}
+.ecosystem-hero > div {
+  position: relative;
+  width: 1020px;
+  height: 773px;
+  margin: 0 auto;
+  background-image: url(/static/images/ecosystem/bg1.png),
+    url(/static/images/ecosystem/bg.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 492px 100%, 100% 892px;
+  background-position: center top, center top;
+}
+.ecosystem-hero > div > div {
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+}
+.ecosystem-hero > div > div svg {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.ecosystem-hero > div > div p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 31px;
+  color: #f0b90b;
+}
+.ecosystem-hero > div > div:nth-of-type(1) {
+  top: 250px;
+  right: 760px;
+  width: 220px;
+  height: 100px;
+}
+.ecosystem-hero > div > div:nth-of-type(2) {
+  top: 466px;
+  right: 680px;
+  width: 310px;
+  height: 100px;
+}
+.ecosystem-hero > div > div:nth-of-type(3) {
+  top: 373px;
+  left: 730px;
+  width: 240px;
+  height: 100px;
+}
+.ecosystem-bg {
+  width: 100%;
+  background: url(/images/c40f0b836d75c4b5a7c605ba7bcd4d06.bg.png) no-repeat;
+  background-size: 2875px;
+  background-position: center -360px;
+}
+.ecosystem-minning {
+  width: 100%;
+}
+.ecosystem-minning > div {
+  width: 1020px;
+  margin: 0 auto;
+  padding: 0;
+}
+.ecosystem-minning > div > h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  color: #000;
+}
+.ecosystem-minning > div > p {
+  margin: 30px 0 0 0;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+}
+.ecosystem-minning > div > a {
+  display: block;
+  width: 120px;
+  height: 36px;
+  margin-top: 30px;
+  border: 1px solid #000;
+  border-radius: 1px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 34px;
+  color: #000;
+}
+.ecosystem-minning > div > ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 34px;
+  padding: 0;
+}
+.ecosystem-minning > div > ul li {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 503px;
+  height: 211px;
+  padding: 40px 30px;
+  border: 2px solid #d5d5d5;
+  background: #fff;
+  list-style: none;
+}
+.ecosystem-minning > div > ul li img {
+  margin-right: 37px;
+}
+.ecosystem-minning > div > ul li h6 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 31px;
+  color: #000;
+}
+.ecosystem-minning > div > ul li p {
+  margin: 20px 0 0 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #000;
+}
+.ecosystem-wallet {
+  position: relative;
+  width: 100%;
+  padding: 100px 0;
+}
+.ecosystem-wallet > h1 {
+  width: 1020px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  color: #000;
+}
+.ecosystem-wallet > dl {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 1020px;
+  margin: 70px auto;
+  padding: 0;
+}
+.ecosystem-wallet > dl dd {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  height: 170px;
+  padding: 40px;
+  margin: 0;
+  border: 2px solid #d5d5d5;
+  background: #fff;
+}
+.ecosystem-wallet > dl dd img {
+  width: 90px;
+  height: 90px;
+  margin-right: 30px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+}
+.ecosystem-wallet > dl dd div h6 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 31px;
+  color: #000;
+}
+.ecosystem-wallet > dl dd div p {
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #000;
+}
+.ecosystem-wallet > dl dd a {
+  display: none;
+  width: 156px;
+  height: 45px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #fff;
+  background: #000;
+}
+.ecosystem-wallet > svg {
+  position: absolute;
+  bottom: 43px;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 52px;
+  margin: 0 auto;
+  cursor: pointer;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ecosystem-wallet--expand > dl {
+  position: relative;
+  height: 510px;
+  background: url(/static/images/ecosystem/bg-wallet.png) no-repeat;
+  background-size: 723px 510px;
+  background-position: right;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ecosystem-wallet--expand > dl dd {
+  display: block;
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ecosystem-wallet--expand > dl dd img {
+  margin: 0;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ecosystem-wallet--expand > dl dd div h6 {
+  margin: 20px 0 0 0;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ecosystem-wallet--expand > dl dd a {
+  display: block;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.ecosystem-wallet--expand > dl dd:nth-of-type(1) {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ecosystem-wallet--expand > dl dd:nth-of-type(2) {
+  position: absolute;
+  right: 0;
+  bottom: -33px;
+  text-align: right;
+}
+.ecosystem-wallet--expand > svg {
+  -webkit-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
+.ecosystem-dapp {
+  width: 100%;
+  padding: 100px 0 200px 0;
+  background-color: #000;
+}
+.ecosystem-dapp > div {
+  width: 1020px;
+  margin: 0 auto;
+}
+.ecosystem-dapp > div > h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  color: #fff;
+}
+.ecosystem-dapp > div > h3 {
+  margin: 70px 0 0 0;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.ecosystem-app {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.ecosystem-app > div:nth-of-type(1) h6 {
+  margin: 20px 0 0 0;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 31px;
+  color: #fff;
+}
+.ecosystem-app > div:nth-of-type(1) p {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.ecosystem-app > div:nth-of-type(1) a {
+  display: block;
+  margin: 16px 0 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f0b90b;
+}
+.ecosystem-app > div:nth-of-type(1) a img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.ecosystem-app > div:nth-of-type(2) {
+  position: relative;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -ms-flex: 0 0 713px;
+  flex: 0 0 713px;
+  width: 610px;
+  height: 451px;
+  background: url(/static/images/ecosystem/app-bg.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.ecosystem-app > div:nth-of-type(2) > span {
+  position: absolute;
+  display: block;
+  width: 140px;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #fff;
+}
+.ecosystem-app > div:nth-of-type(2) > span:nth-of-type(1) {
+  right: 220px;
+  top: 65px;
+  text-align: right;
+}
+.ecosystem-app > div:nth-of-type(2) > span:nth-of-type(2) {
+  left: 210px;
+  top: 100px;
+  text-align: left;
+}
+.ecosystem-app > div:nth-of-type(2) > span:nth-of-type(3) {
+  left: 56px;
+  top: 180px;
+  text-align: left;
+}
+.ecosystem-app > div:nth-of-type(2) > span:nth-of-type(4) {
+  left: 261px;
+  top: 225px;
+}
+.ecosystem-app > div:nth-of-type(2) > span:nth-of-type(5) {
+  left: 146px;
+  top: 330px;
+  text-align: left;
+}
+.ecosystem-app > div:nth-of-type(2) > span:nth-of-type(6) {
+  right: 238px;
+  top: 330px;
+  text-align: right;
+}
+.ecosystem-app > div:nth-of-type(2) > span:nth-of-type(7) {
+  left: 256px;
+  top: 434px;
+  text-align: left;
+}
+.ecosystem-game {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  margin: 150px 0 0 0;
+}
+.ecosystem-game > div {
+  width: 230px;
+  text-align: center;
+}
+.ecosystem-game > div h6 {
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #fff;
+}
+.ecosystem-game > div p {
+  margin: 14px 0 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+.ecosystem-partner {
+  background: url(/images/f3b9584528c248f252055931051a05b2.bg1.png) no-repeat;
+  background-size: 2305px 775px;
+  background-position: center 120px;
+}
+.ecosystem-partner > div {
+  width: 1020px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.ecosystem-partner > div h1 {
+  margin: 0 0 60px 0;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 60px;
+  color: #111;
+}
+.ecosystem-partner > div h6 {
+  margin: 50px 0 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 23px;
+  color: rgba(17, 17, 17, 0.5);
+}
+.ecosystem-partner > div div {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.ecosystem-partner > div div a {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 196px;
+  height: 80px;
+  margin: 0 10px 10px 0;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
+.ecosystem-partner > div div a:nth-of-type(5n) {
+  margin-right: 0;
+}
+.ecosystem-game-mobile {
+  display: none;
+}
+.ecosystem-app-iot {
+  display: none;
+}
+.ecosystem-hero-title {
+  display: none;
+}
+@media (max-width: 768px) {
+  .ecosystem-hero {
+    background-color: #000;
+  }
+  .ecosystem-hero .ecosystem-hero-title {
+    position: absolute;
+    display: block;
+    background: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    top: 10px;
+  }
+  .ecosystem-hero > div {
+    width: 100%;
+    height: 334px;
+    background-image: url(/static/images/ecosystem/bg_mobile@2x.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+  }
+  .ecosystem-hero > div > div svg {
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+  }
+  .ecosystem-hero > div > div p {
+    font-size: 10px;
+    line-height: 11px;
+    position: relative;
+    top: -20px;
+    -webkit-transform: scale(0.833);
+    transform: scale(0.833);
+  }
+  .ecosystem-hero > div > div:nth-of-type(1) {
+    top: 78px;
+    left: 6%;
+    right: auto;
+    width: 107px;
+    height: 100px;
+  }
+  .ecosystem-hero > div > div:nth-of-type(2) {
+    top: 155px;
+    left: 6%;
+    right: auto;
+    width: 107px;
+    height: 100px;
+  }
+  .ecosystem-hero > div > div:nth-of-type(3) {
+    top: 134px;
+    left: auto;
+    right: 6%;
+    width: 117px;
+    height: 100px;
+  }
+  .ecosystem-bg {
+    width: 100%;
+    padding-top: 0;
+    position: relative;
+    top: -42px;
+    background: none;
+  }
+  .ecosystem-minning {
+    background: #fbf8fb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .ecosystem-minning > div {
+    width: auto;
+  }
+  .ecosystem-minning > div > h1 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 0 26px 0;
+  }
+  .ecosystem-minning > div > p {
+    display: none;
+  }
+  .ecosystem-minning > div > a {
+    display: none;
+  }
+  .ecosystem-minning > div > ul {
+    display: block;
+    padding: 0 16px;
+  }
+  .ecosystem-minning > div > ul li {
+    -webkit-box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    height: auto;
+    border: none;
+    margin-bottom: 25px;
+    padding: 45px 22px 40px 22px;
+    display: block;
+    text-align: center;
+  }
+  .ecosystem-minning > div > ul li img {
+    margin: 0;
+    width: 78px;
+    margin-bottom: 36px;
+  }
+  .ecosystem-minning > div > ul li h6 {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 16px;
+  }
+  .ecosystem-minning > div > ul li p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .ecosystem-minning > div > ul li:nth-of-type(2) img {
+    width: 75px;
+    margin-bottom: 34px;
+  }
+  .ecosystem-wallet {
+    padding: 40px 16px 0 16px;
+    text-align: center;
+  }
+  .ecosystem-wallet > h1 {
+    width: auto;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .ecosystem-wallet > dl {
+    margin: 56px 0 30px 0;
+    width: auto;
+  }
+  .ecosystem-wallet > dl dd {
+    width: 50%;
+    display: block;
+    border: none;
+    padding: 0;
+    height: auto;
+  }
+  .ecosystem-wallet > dl dd img {
+    width: 60px;
+    height: 60px;
+    margin: 0 0 10px 0;
+  }
+  .ecosystem-wallet > dl dd div h6 {
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0 0 10px 0;
+  }
+  .ecosystem-wallet > dl dd div p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .ecosystem-wallet > svg {
+    position: static;
+  }
+  .ecosystem-wallet--expand > dl {
+    height: auto;
+    display: block;
+    background-size: contain;
+    background-position: 0px 320px;
+  }
+  .ecosystem-wallet--expand > dl dd {
+    margin: 0 auto;
+  }
+  .ecosystem-wallet--expand > dl dd a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 354px;
+  }
+  .ecosystem-wallet--expand > dl dd:nth-of-type(1) {
+    position: static;
+  }
+  .ecosystem-wallet--expand > dl dd:nth-of-type(2) {
+    position: static;
+    text-align: center;
+  }
+  .ecosystem-dapp {
+    padding: 38px 20px 68px 20px;
+    text-align: center;
+  }
+  .ecosystem-dapp > div {
+    width: auto;
+  }
+  .ecosystem-dapp > div > h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .ecosystem-dapp > div > h3 {
+    margin: 26px 0 50px 0;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+  }
+  .ecosystem-app {
+    display: block;
+  }
+  .ecosystem-app > div:nth-of-type(1) > img {
+    width: 60px;
+    height: 60px;
+  }
+  .ecosystem-app > div:nth-of-type(1) h6 {
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .ecosystem-app > div:nth-of-type(1) p {
+    font-size: 14px;
+    line-height: 16px;
+    width: 50%;
+    margin: 11px auto 0 auto;
+  }
+  .ecosystem-app > div:nth-of-type(1) a {
+    display: inline-block;
+    width: 143px;
+    height: 40px;
+    border: 1px solid #f0b90b;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+  }
+  .ecosystem-app > div:nth-of-type(1) a img {
+    width: 18px;
+    height: 18px;
+    margin-left: 7px;
+  }
+  .ecosystem-app > div:nth-of-type(2) {
+    display: none;
+  }
+  .ecosystem-game {
+    display: none;
+  }
+  .ecosystem-game-mobile {
+    display: block;
+  }
+  .ecosystem-game-mobile .swiper-pagination-bullet {
+    background: #999999;
+    opacity: 1;
+  }
+  .ecosystem-game-mobile .swiper-pagination-bullet-active {
+    background: #f0b90c;
+  }
+  .ecosystem-game-mobile .swiper-slide {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ecosystem-game-mobile .swiper-slide > div {
+    width: 50%;
+  }
+  .ecosystem-game-mobile .swiper-slide img {
+    width: 60px;
+    height: 60px;
+  }
+  .ecosystem-game-mobile .swiper-slide h6 {
+    margin: 17px 0 10px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+  }
+  .ecosystem-game-mobile .swiper-slide p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    height: 140px;
+    padding: 0 10px;
+  }
+  .ecosystem-app-iot {
+    display: block;
+    position: relative;
+    margin-bottom: 68px;
+    overflow: hidden;
+    margin-top: 55px;
+  }
+  .ecosystem-app-iot img {
+    width: 334px;
+  }
+  .ecosystem-app-iot span {
+    position: absolute;
+    margin: auto;
+    -webkit-transform: scale(0.83);
+    transform: scale(0.83);
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 11px;
+    color: #fff;
+    width: 120px;
+  }
+  .ecosystem-app-iot span:nth-of-type(1) {
+    left: calc(50% - 108px);
+    top: 204px;
+  }
+  .ecosystem-app-iot span:nth-of-type(2) {
+    left: calc(50% - 140px);
+    top: 92px;
+  }
+  .ecosystem-app-iot span:nth-of-type(3) {
+    right: 125px;
+    top: 170px;
+  }
+  .ecosystem-app-iot span:nth-of-type(4) {
+    left: calc(50% - 40px);
+    top: 128px;
+  }
+  .ecosystem-app-iot span:nth-of-type(5) {
+    left: calc(50% - 67px);
+    top: 40px;
+  }
+  .ecosystem-app-iot span:nth-of-type(6) {
+    left: calc(50% - 184px);
+    top: 152px;
+  }
+  .ecosystem-app-iot span:nth-of-type(7) {
+    left: calc(50% + 70px);
+    top: 180px;
+  }
+  .ecosystem-app-iot span:nth-of-type(8) {
+    left: calc(50% + 50px);
+    top: 110px;
+  }
+  .ecosystem-partner {
+    background: #fbf8fb;
+  }
+  .ecosystem-partner > div {
+    width: 100%;
+    padding: 38px 10px 23px 10px;
+  }
+  .ecosystem-partner > div h1 {
+    margin: 0 0 26px 0;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .ecosystem-partner > div h6 {
+    margin: 0 0 10px 0;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 23px;
+  }
+  .ecosystem-partner > div div {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .ecosystem-partner > div div a {
+    width: calc((100% - 20px) / 3);
+    height: 50px;
+  }
+  .ecosystem-partner > div div a:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .ecosystem-partner > div div img {
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+  }
+}
+.ecosystem-wallet--expand .topia-download {
+  display: inline-block !important;
+}
+@media (max-width: 768px) {
+  .topia-download {
+    display: none !important;
+    margin-bottom: 50px !important;
+  }
+  .ecosystem-wallet--expand .topia-download {
+    display: inline-block !important;
+  }
+}
+
+.video-player {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 997;
+  overflow: hidden;
+}
+.video-player > video {
+  width: 80%;
+  outline: none;
+}
+
+.staking-page {
+  background-image: url("/static/images/newHome/bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  /* margin-bottom: 2rem; */
+}
+
+.info-section {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+}
+
+.section-description {
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+.token-allocations-link {
+  color: black;
+  font-size: 18px;
+  /* text-decoration: none; */
+  text-decoration: underline;
+}
+
+.supply-label {
+  color: #333333;
+  margin-bottom: 22px;
+  margin-top: 26px;
+  font-size: 20px;
+}
+
+.supply-amount {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: #ffc043; */
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffca00),
+    to(#ff8606)
+  );
+  background-image: linear-gradient(90deg, #ffca00, #ff8606);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stake-section {
+  margin-bottom: 3rem;
+}
+
+.cards-container {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.staking-card {
+  position: relative;
+  background-image: url("/static/images/newHome/topnode1.png");
+  background-size: 100% 100%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  padding: 20px;
+  padding-left: 110px;
+  width: 100%;
+  height: 230px;
+}
+
+.staking-card2 {
+  position: relative;
+  background-image: url("/static/images/newHome/topnode2.png");
+  background-size: 100% 100%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  padding: 20px;
+  padding-left: 110px;
+  width: 100%;
+  height: 230px;
+}
+
+.card-header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon-container {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 4rem;
+  height: 4rem;
+  background-color: #ffc043;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+
+.card-content {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.tutorial-button {
+  position: absolute;
+  bottom: 15px;
+  left: 130px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #bcbcbc;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+@media (min-width: 768px) {
+  .supply-label {
+    color: #333333;
+    margin-bottom: 22px;
+    margin-top: 65px;
+    font-size: 20px;
+  }
+  .supply-amount {
+    font-size: 56px;
+    font-weight: bold;
+    /* color: #ffc043; */
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#ffca00),
+      to(#ff8606)
+    );
+    background-image: linear-gradient(90deg, #ffca00, #ff8606);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .card-title {
+    font-size: 26px;
+    font-weight: normal;
+    /* margin-bottom: 0.5rem; */
+  }
+  .card-description {
+    color: #666;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  .section-description {
+    color: #666;
+    /* margin-bottom: 0.5rem; */
+    font-size: 20px;
+  }
+  .section-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 65px;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+  }
+  .staking-page {
+    padding: 89px;
+    text-align: left;
+  }
+
+  .page-title {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 0;
+    /* margin-bottom: 2rem; */
+  }
+
+  .tutorial-button {
+    position: absolute;
+    bottom: 30px;
+    left: 190px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #bcbcbc;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  .info-section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .staking-card {
+    position: relative;
+    background-image: url("/static/images/newHome/topnode1.png");
+    background-size: 100% 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    padding: 40px;
+    padding-left: 190px;
+    width: 500px;
+    height: 300px;
+  }
+
+  .staking-card2 {
+    position: relative;
+    background-image: url("/static/images/newHome/topnode2.png");
+    background-size: 100% 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    padding: 40px;
+    padding-left: 190px;
+    width: 500px;
+    height: 300px;
+  }
+}
+
+.home-map {
+  padding: 100px 0 30px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #505050;
+}
+.home-map h1 {
+  margin: 0 0 50px 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.home-map h6 {
+  margin: 0 0 22px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.home-map p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.home-map a {
+  display: block;
+  width: 120px;
+  height: 36px;
+  margin: 30px auto;
+  border: 1px solid #f0b90b;
+  border-radius: 1px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 16px;
+  color: #f0b90b;
+}
+.home-map-container {
+  width: 90%;
+  height: 700px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .home-map {
+    height: auto;
+    padding: 40px 0 10px 0;
+  }
+  .home-map h1 {
+    margin: 0;
+    padding: 0 28px;
+    font-size: 28px;
+  }
+  .home-map h6 {
+    margin: 16px 0 0 0;
+    padding: 0 28px;
+    font-size: 16px;
+  }
+  .home-map p {
+    margin: 10px 0 0 0;
+    padding: 0 28px;
+    font-size: 16px;
+  }
+  .home-map a {
+    display: none;
+  }
+  .home-map-container {
+    width: 100%;
+    height: 182px;
+    margin: 20px auto;
+  }
+}
+
+.mobile-hide {
+  display: none;
+}
+.Mainnet-title {
+  font-weight: bold;
+  font-size: 56px;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+  margin-bottom: 0px;
+}
+.Mainnet {
+  display: none !important;
+  width: 100%;
+  padding-bottom: 205px;
+}
+.Mainnet__container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background: #1b1b1b;
+  border-radius: 6px;
+  color: #fff;
+}
+.Mainnet__container img {
+  width: auto;
+  height: 50px;
+}
+.Mainnet-line {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Mainnet-line > div {
+  width: 300px;
+  height: 280px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.Mainnet-line .Mainnet-data {
+  background: #101215;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 42px;
+  font-family: AlibabaPuHuiTiB;
+  color: #ffffff;
+}
+.Mainnet-line .Mainnet-label {
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: AlibabaPuHuiTiR;
+  color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 768px) {
+  .Mainnet-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 0px;
+  }
+  .Mainnet {
+    padding: 0 16px 40px 16px;
+  }
+  .Mainnet__container {
+    width: 100%;
+  }
+  .Mainnet-line {
+    width: 100%;
+    height: 130px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .Mainnet-line:nth-child(2n + 1) {
+    background-color: #ffffff08;
+  }
+  .Mainnet-line:nth-child(2n) {
+    background-color: #101215;
+  }
+  .Mainnet-line .icon {
+    width: 40%;
+    text-align: right;
+    height: 130px;
+  }
+  .Mainnet-line .rows {
+    width: 60%;
+    display: inline-block;
+    height: 130px;
+  }
+  .Mainnet-line .rows div:first-child {
+    width: 100%;
+    line-height: 38px;
+    height: 70px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    font-size: 28px;
+    font-family: AlibabaPuHuiTiB;
+  }
+  .Mainnet-line .rows div:last-child {
+    width: 100%;
+    line-height: 17px;
+    height: 60px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    font-size: 12px;
+    font-family: AlibabaPuHuiTiR;
+    color: #ffffff8f;
+  }
+}
