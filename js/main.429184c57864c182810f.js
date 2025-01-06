@@ -6786,7 +6786,7 @@ object-assign
                   a.a.createElement(
                     "a",
                     {
-                      href: "https://dexscreener.com/base/0x00000000000000000000000000000000000000",
+                      href: "https://dexscreener.com/ethereum/0x5b7ee80ddbed8a86bb0abba6ed80cb0677e3335b",
                       target: "_blank",
                       rel: "noopener noreferrer",
                     },
@@ -6798,7 +6798,7 @@ object-assign
                   a.a.createElement(
                     "a",
                     {
-                      href: "https://www.dextools.io/app/en/base/pair-explorer/0x00000000000000000000000000000000000000",
+                      href: "https://www.dextools.io/app/en/ether/pair-explorer/0x5b7ee80ddbed8a86bb0abba6ed80cb0677e3335b",
                       target: "_blank",
                       rel: "noopener noreferrer",
                     },
