@@ -89,7 +89,7 @@
                   {
                     className: "innovationsBtn2",
                     onClick: () => {
-                      window.location.href = "https://sorojins-organization.gitbook.io/top-ai";
+                      window.location.href = "https://docs.top-ai.xyz/";
                     },
                   },
                   "AI Litepaper"

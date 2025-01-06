@@ -6569,7 +6569,7 @@ object-assign
                   },
                   a.a.createElement(
                     "a",
-                    { href: "https://top-ai-org-app.vercel.app/", target: "_blank" },
+                    { href: "https://app.top-ai.xyz", target: "_blank" },
                     "Staking"
                   )
                 ),
@@ -6593,7 +6593,7 @@ object-assign
                   },
                   a.a.createElement(
                     "a",
-                    { href: "https://sorojins-organization.gitbook.io/top-ai", target: "_blank" },
+                    { href: "https://docs.top-ai.xyz/", target: "_blank" },
                     "About Us"
                   )
                 )
@@ -6773,7 +6773,7 @@ object-assign
                   a.a.createElement(
                     "a",
                     {
-                      href: "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x00000000000000000000000000000000000000&chain=base",
+                      href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xF920d66bb9afa37Dc5C8A2C377e9453200d34A8D",
                       target: "_blank",
                       rel: "noopener noreferrer",
                     },

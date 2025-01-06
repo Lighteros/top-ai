@@ -477,7 +477,7 @@
                 s.a.createElement(
                   "a",
                   {
-                    href: "https://top-ai-org-app.vercel.app/",
+                    href: "https://app.top-ai.xyz",
                     className: "token-allocations-link",
                     target: "_blank",
                   },
