@@ -6757,7 +6757,7 @@ object-assign
               a.a.createElement(
                 "div",
                 { className: "foundation" },
-                "© TopAI Foundation 2024 "
+                "© TopAI Foundation 2025 "
               )
             ),
             a.a.createElement(
